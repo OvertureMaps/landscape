@@ -1,0 +1,11 @@
+landscapeMemberClasses: 
+  - name: Steering Membership
+    category: Steering
+  - name: General Membership
+    category: General
+  - name: Contributor Membership
+    category: Contributor
+  - name: Contributor
+    category: Contributor
+slug: overfund
+landscapeMemberCategory: Overture Maps Members
