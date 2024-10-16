@@ -12,12 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     name: "Validate landscape.yml file"
     steps:
-      - uses: actions/checkout@v3
-      - uses: cncf/landscape2-validate-action@v2
+      - name: Harden Runner
+        uses: step-security/harden-runner@91182cccc01eb5e619899d80e4e971d6181294a7 # v2.10.1
+        with:
+          egress-policy: audit
+
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
+      - uses: cncf/landscape2-validate-action@7f299c46e9b03b4e8bc2896882734fb0b0756b37 # v2.0.0
         with:
           target_kind: data
           target_path: ./landscape.yml
-      - uses: pascalgn/automerge-action@v0.15.5
+      - uses: pascalgn/automerge-action@eb68b061739cb9d81564f8e812d0b3c45f0fb09a # v0.15.5
         if: success()
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
