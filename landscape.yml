@@ -219,6 +219,14 @@ landscape:
             twitter: https://twitter.com/geo_will
             crunchbase: https://www.crunchbase.com/organization/sparkgeo
           - item:
+            name: Tripadvisor LLC
+            homepage_url: https://tripadvisor.com/
+            project: null
+            logo: tripadvisor_llc.svg
+            organization:
+              name: Tripadvisor LLC
+              linkedin: https://www.linkedin.com/company/tripadvisor
+          - item:
             name: Wherobots, Inc
             homepage_url: https://wherobots.com/
             project: null
