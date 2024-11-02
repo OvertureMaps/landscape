@@ -150,11 +150,27 @@ landscape:
               name: Inframappa
               linkedin: https://www.linkedin.com/company/inframappa
           - item:
+            name: Intellias Global Limited
+            homepage_url: https://intellias.com/
+            project: null
+            logo: intellias_global_limited.svg
+            organization:
+              name: Intellias Global Limited
+              linkedin: https://www.linkedin.com/company/intellias
+          - item:
             name: Kaart
             homepage_url: https://kaart.com/
             project: null
             logo: kaart.svg
             crunchbase: https://www.crunchbase.com/organization/kaart
+          - item:
+            name: krick.com GmbH + Co. KG
+            homepage_url: https://krick.com/
+            project: null
+            logo: krick_com_gmbh_co.svg
+            organization:
+              name: krick.com GmbH + Co. KG
+              linkedin: https://www.linkedin.com/company/krickcom
           - item:
             name: NAVIS-AMS
             homepage_url: https://navis-ams.com/
