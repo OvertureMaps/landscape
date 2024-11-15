@@ -8,28 +8,24 @@ landscape:
           - item:
             name: Amazon Web Services, Inc.
             homepage_url: https://amazon.com/
-            project: null
             logo: amazon_web_services_inc.svg
             twitter: https://twitter.com/amazon
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
             name: Meta Platforms, Inc.
             homepage_url: https://meta.com/
-            project: null
             logo: meta_platforms_inc.svg
             twitter: https://twitter.com/Meta
             crunchbase: https://www.crunchbase.com/organization/facebook
           - item:
             name: Microsoft Corporation
             homepage_url: https://microsoft.com/
-            project: null
             logo: microsoft_corporation.svg
             twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: TomTom International B.V.
             homepage_url: https://tomtom.com/
-            project: null
             logo: tomtom_international_b_v.svg
             twitter: https://twitter.com/TomTom
             crunchbase: https://www.crunchbase.com/organization/tomtom-international
@@ -39,7 +35,6 @@ landscape:
           - item:
             name: Environmental Systems Research Institute, Inc. (ESRI)
             homepage_url: https://esri.com/
-            project: null
             logo: environmental_systems_research_institute_inc.svg
             twitter: https://twitter.com/Esri
             crunchbase: https://www.crunchbase.com/organization/esri
@@ -49,13 +44,11 @@ landscape:
           - item:
             name: Addresscloud
             homepage_url: https://addresscloud.com/
-            project: null
             logo: addresscloud.svg
             crunchbase: https://www.crunchbase.com/organization/addresscloud
           - item:
             name: AddressForAll Institute
             homepage_url: https://addressforall.org/
-            project: null
             logo: addressforall_institute.svg
             organization:
               name: AddressForAll Institute
@@ -63,14 +56,12 @@ landscape:
           - item:
             name: Camptocamp
             homepage_url: https://camptocamp.com/
-            project: null
             logo: camptocamp.svg
             twitter: https://twitter.com/camptocamp
             crunchbase: https://www.crunchbase.com/organization/camptocamp
           - item:
             name: CARIAD SE
             homepage_url: https://cariad.technology/
-            project: null
             logo: cariad_se.svg
             organization:
               name: CARIAD SE
@@ -78,7 +69,6 @@ landscape:
           - item:
             name: con terra
             homepage_url: https://conterra.de/
-            project: null
             logo: con_terra.svg
             organization:
               name: con terra
@@ -86,20 +76,17 @@ landscape:
           - item:
             name: Crunchy Data Solutions, Inc.
             homepage_url: https://crunchydata.com/
-            project: null
             logo: crunchy_data_solutions_inc.svg
             twitter: https://twitter.com/crunchydata
             crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
           - item:
             name: Development Seed
             homepage_url: https://developmentseed.org/
-            project: null
             logo: development_seed.svg
             crunchbase: https://www.crunchbase.com/organization/development-seed
           - item:
             name: E Foundation
             homepage_url: https://e.foundation/
-            project: null
             logo: e_foundation.svg
             organization:
               name: E Foundation
@@ -107,28 +94,24 @@ landscape:
           - item:
             name: Fresno County Department of Public Works & Planning
             homepage_url: https://fresnocountyca.gov/
-            project: null
             logo: fresno_county_department_of_public_works_planning.svg
             organization:
               name: Fresno County Department of Public Works & Planning
           - item:
             name: GlobalLogic Inc.
             homepage_url: https://globallogic.com/
-            project: null
             logo: globallogic_inc.svg
             twitter: https://twitter.com/GlobalLogic
             crunchbase: https://www.crunchbase.com/organization/globallogic
           - item:
             name: Grab Holdings Inc.
             homepage_url: https://grab.com/
-            project: null
             logo: grab_holdings_inc.svg
             twitter: https://twitter.com/GrabSG
             crunchbase: https://www.crunchbase.com/organization/grabtaxi
           - item:
             name: Humanitarian OpenstreetMap Team
             homepage_url: https://hotosm.org/
-            project: null
             logo: humanitarian_openstreetmap_team.svg
             organization:
               name: Humanitarian OpenstreetMap Team
@@ -136,14 +119,12 @@ landscape:
           - item:
             name: Hyundai Motor Group
             homepage_url: https://hyundai.com/
-            project: null
             logo: hyundai_motor_group.svg
             twitter: https://twitter.com/Hyundai
             crunchbase: https://www.crunchbase.com/organization/hyundai-motor-america
           - item:
             name: Inframappa
             homepage_url: https://inframappa.com/
-            project: null
             logo: inframappa.svg
             twitter: https://twitter.com/InfraMappa
             organization:
@@ -152,7 +133,6 @@ landscape:
           - item:
             name: Intellias Global Limited
             homepage_url: https://intellias.com/
-            project: null
             logo: intellias_global_limited.svg
             organization:
               name: Intellias Global Limited
@@ -160,13 +140,11 @@ landscape:
           - item:
             name: Kaart
             homepage_url: https://kaart.com/
-            project: null
             logo: kaart.svg
             crunchbase: https://www.crunchbase.com/organization/kaart
           - item:
             name: krick.com GmbH + Co. KG
             homepage_url: https://krick.com/
-            project: null
             logo: krick_com_gmbh_co.svg
             organization:
               name: krick.com GmbH + Co. KG
@@ -174,7 +152,6 @@ landscape:
           - item:
             name: NAVIS-AMS
             homepage_url: https://navis-ams.com/
-            project: null
             logo: navis_ams.svg
             organization:
               name: NAVIS-AMS
@@ -182,62 +159,53 @@ landscape:
           - item:
             name: NDrive Navigation Systems SA
             homepage_url: https://ndrive.com/
-            project: null
             logo: ndrive_navigation_systems_sa.svg
             twitter: https://twitter.com/NDrive
             crunchbase: https://www.crunchbase.com/organization/ndrive
           - item:
             name: Nearmap Australia Pty Ltd
             homepage_url: https://nearmap.com/
-            project: null
             logo: nearmap_australia_pty_ltd.svg
             crunchbase: https://www.crunchbase.com/organization/nearmap-com
           - item:
             name: Niantic
             homepage_url: https://nianticlabs.com/
-            project: null
             logo: niantic.svg
             twitter: https://twitter.com/NianticLabs
             crunchbase: https://www.crunchbase.com/organization/nianticlabs-google
           - item:
             name: Precisely Holdings, LLC
             homepage_url: https://precisely.com/
-            project: null
             logo: precisely_holdings_llc.svg
             twitter: https://twitter.com/PreciselyData
             crunchbase: https://www.crunchbase.com/organization/precisely-write
           - item:
             name: PTV Group
             homepage_url: https://ptvgroup.com/
-            project: null
             logo: ptv_group.svg
             twitter: https://twitter.com/PTVGroup
             crunchbase: https://www.crunchbase.com/organization/ptv-group
           - item:
             name: SafeGraph
             homepage_url: https://safegraph.com/
-            project: null
             logo: safegraph.svg
             twitter: https://twitter.com/SafeGraph
             crunchbase: https://www.crunchbase.com/organization/safegraph
           - item:
             name: Sanborn
             homepage_url: https://sanborn.com/
-            project: null
             logo: sanborn.svg
             twitter: https://twitter.com/SanbornMap
             crunchbase: https://www.crunchbase.com/organization/sanborn-map-company
           - item:
             name: Sparkgeo
             homepage_url: https://sparkgeo.com/
-            project: null
             logo: sparkgeo.svg
             twitter: https://twitter.com/geo_will
             crunchbase: https://www.crunchbase.com/organization/sparkgeo
           - item:
             name: Tripadvisor LLC
             homepage_url: https://tripadvisor.com/
-            project: null
             logo: tripadvisor_llc.svg
             organization:
               name: Tripadvisor LLC
@@ -245,7 +213,6 @@ landscape:
           - item:
             name: Wherobots, Inc
             homepage_url: https://wherobots.com/
-            project: null
             logo: wherobots_inc.svg
             organization:
               name: Wherobots, Inc
