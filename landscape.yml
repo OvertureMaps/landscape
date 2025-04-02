@@ -483,6 +483,17 @@ landscape:
               name: krick.com GmbH + Co. KG
               linkedin: https://www.linkedin.com/company/krickcom
           - item:
+            name: National Geospatial-Intelligence Agency
+            description: >-
+              The National Geospatial-Intelligence Agency is a combat support agency within the United States Department of Defense whose primary mission is
+              collecting, analyzing, and distributing geospatial intelligence in support of national security.
+            homepage_url: https://www.nga.mil/
+            logo: national_geospatial_intelligence_agency.svg
+            twitter: https://twitter.com/NGA_GEOINT
+            crunchbase: https://www.crunchbase.com/organization/national-geospatial-intelligence-agency
+            extra:
+              linkedin_url: https://www.linkedin.com/company/nga
+          - item:
             name: NAVIS-AMS
             description: >-
               Navis Automotive Systems is dedicated to developing convenient, safe, and stable driveways for drivers worldwide. With a focus on enhancing the
@@ -513,6 +524,24 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nearmap-com
             extra:
               linkedin_url: https://www.linkedin.com/company/nearmap-com
+          - item:
+            name: Neusoft Corporation
+            description: >-
+              Neusoft provides innovative information technology ��_��_��_ enabled solutions and services to meet the demands arising from social
+              transformation, to shape new life styles for individuals and to create values for the society. Focusing on software technology, Neusoft provides
+              industrial solutions, smart connected products, platform products and cloud and data services.
+
+
+              Founded in 1991, Neusoft is the first listed software company in China and the first CMM5 and CMMI(V1.2) 5 certified Chinese software company.
+              Today, Neusoft has nearly 20,000 employees worldwide, and it has established 8 regional headquarters, 10 software R&D bases, 16 software
+              development and technical support centers, and a marketing and service network covering more than 60 cities in China. It has also set up
+              subsidiaries outside China in the United States, Japan, Europe, the Middle East, and South America.
+            homepage_url: https://neusoft.com/
+            logo: neusoft_corporation.svg
+            twitter: https://twitter.com/NeusoftAuto
+            crunchbase: https://www.crunchbase.com/organization/neusoft
+            extra:
+              linkedin_url: https://www.linkedin.com/company/neusoft
           - item:
             name: Niantic
             description: Niantic, Inc. is an American software development company based in San Francisco.
