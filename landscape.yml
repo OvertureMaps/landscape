@@ -483,16 +483,29 @@ landscape:
               name: krick.com GmbH + Co. KG
               linkedin: https://www.linkedin.com/company/krickcom
           - item:
-            name: National Geospatial-Intelligence Agency
+            name: Maxar Technologies Inc
             description: >-
-              The National Geospatial-Intelligence Agency is a combat support agency within the United States Department of Defense whose primary mission is
-              collecting, analyzing, and distributing geospatial intelligence in support of national security.
-            homepage_url: https://www.nga.mil/
-            logo: national_geospatial_intelligence_agency.svg
-            twitter: https://twitter.com/NGA_GEOINT
-            crunchbase: https://www.crunchbase.com/organization/national-geospatial-intelligence-agency
+              Maxar Technologies is a leading provider of integrated space infrastructure and Earth intelligence capabilities. They offer innovative solutions
+              for commercial and government missions, including spacecraft, components, robotics, geospatial intelligence...
+            homepage_url: https://maxar.com/
+            logo: maxar_technologies_inc.svg
             extra:
-              linkedin_url: https://www.linkedin.com/company/nga
+              linkedin_url: https://www.linkedin.com/company/maxar-technologies-ltd
+            organization:
+              name: Maxar Technologies Inc
+              linkedin: https://www.linkedin.com/company/maxar-technologies-ltd
+          - item:
+            name: MobilityData
+            description: >-
+              MobilityData brings together and supports mobility stakeholders to standardize and expand data formats for public transport (GTFS) and shared
+              mobility (GBFS).
+            homepage_url: https://mobilitydata.org/
+            logo: mobilitydata.svg
+            extra:
+              linkedin_url: https://www.linkedin.com/company/mobilitydata
+            organization:
+              name: MobilityData
+              linkedin: https://www.linkedin.com/company/mobilitydata
           - item:
             name: NAVIS-AMS
             description: >-
