@@ -461,16 +461,6 @@ landscape:
               name: Intellias Global Limited
               linkedin: https://www.linkedin.com/company/intellias
           - item:
-            name: Kaart
-            description: >-
-              Kaart is a leading provider of elegant geographic solutions, specializing in GIS, surveying, planning, and redevelopment worldwide. With a focus
-              on improving Open Source Data, Kaart has created top-notch geographic data for vehicle navigation, powering...
-            homepage_url: https://kaart.com/
-            logo: kaart.svg
-            crunchbase: https://www.crunchbase.com/organization/kaart
-            extra:
-              linkedin_url: https://www.linkedin.com/company/kaart-group
-          - item:
             name: krick.com GmbH + Co. KG
             description: >-
               Der Robert Krick Verlag verlegt seit über 65 Jahren Verzeichnismedien wie Das Telefonbuch und Das Örtliche, und bietet lokale Informationsdienste
