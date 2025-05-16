@@ -509,15 +509,6 @@ landscape:
               name: NAVIS-AMS
               linkedin: https://www.linkedin.com/company/navis-ams
           - item:
-            name: NDrive Navigation Systems SA
-            description: NDrive is a Portuguese company of global automotive navigation systems for mobile phones and tablets.
-            homepage_url: https://ndrive.com/
-            logo: ndrive_navigation_systems_sa.svg
-            twitter: https://twitter.com/NDrive
-            crunchbase: https://www.crunchbase.com/organization/ndrive
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ndrive
-          - item:
             name: Nearmap Australia Pty Ltd
             description: >-
               Nearmap is a company that provides high resolution aerial imagery, city scale 3D content, artificial intelligence data sets, and geospatial tools
