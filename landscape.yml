@@ -587,6 +587,12 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ptv
           - item:
+            name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
+            homepage_url: https://extremegeo.net/
+            logo: resource_advancement_for_inquisitive_kids_international_rafiki.svg
+            organization:
+              name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
+          - item:
             name: SafeGraph
             description: >-
               SafeGraph curates the highest quality and most up-to-date Places data to help organizations understand dynamically changing market trends, power
