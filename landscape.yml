@@ -116,11 +116,8 @@ landscape:
               Visit: https://cariad.technology
             homepage_url: https://cariad.technology/
             logo: cariad_se.svg
-            extra:
-              linkedin_url: https://www.linkedin.com/company/cariad-tech
             organization:
               name: CARIAD SE
-              linkedin: https://www.linkedin.com/company/cariad-tech
           - item:
             name: con terra
             description: >-
