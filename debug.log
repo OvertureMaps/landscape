@@ -1,0 +1,1090 @@
+2025-07-01 04:19:55,449 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:55,449 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:55,449 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:55,458 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:55,458 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:55,460 [WARNING] Couldn't find slug for project 'None'
+2025-07-01 04:19:55,460 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:55,460 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:55,460 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:55,460 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:55,460 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:55,530 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:55,530 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:55,530 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1, send_request=True)
+2025-07-01 04:19:55,531 [DEBUG] Starting new HTTPS connection (1): api-gw.platform.linuxfoundation.org:443
+2025-07-01 04:19:55,691 [DEBUG] https://api-gw.platform.linuxfoundation.org:443 "GET /project-service/v1/public/projects?slug=overfund HTTP/1.1" 200 691
+2025-07-01 04:19:55,691 [DEBUG] Pre-write cache checks: Passed
+2025-07-01 04:19:55,696 [INFO] Loading LFX Members data
+2025-07-01 04:19:55,696 [DEBUG] Starting new HTTPS connection (1): api-gw.platform.linuxfoundation.org:443
+2025-07-01 04:19:55,931 [DEBUG] https://api-gw.platform.linuxfoundation.org:443 "GET /project-service/v1/public/projects/a092M00001L1HxuQAF/members?orderBy=name&status=Active,At%20Risk HTTP/1.1" 200 None
+2025-07-01 04:19:55,950 [INFO] Found 37 records
+2025-07-01 04:19:55,950 [DEBUG] Looking for 'Addresscloud'
+2025-07-01 04:19:55,950 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:55,950 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:55,950 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:55,951 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:55,951 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:55,952 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:55,952 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:55,952 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1, send_request=True)
+2025-07-01 04:19:55,952 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2025-07-01 04:19:56,051 [DEBUG] https://raw.githubusercontent.com:443 "GET /cncf/landscape2/refs/heads/main/docs/config/data.yml HTTP/1.1" 200 3555
+2025-07-01 04:19:56,052 [DEBUG] Pre-write cache checks: Passed
+2025-07-01 04:19:56,071 [INFO] Found LFX Member 'Addresscloud'
+2025-07-01 04:19:56,079 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:56,217 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /addresscloud.svg HTTP/1.1" 200 4760
+2025-07-01 04:19:56,217 [DEBUG] Looking for 'AddressForAll Institute'
+2025-07-01 04:19:56,217 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:56,217 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:56,218 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:56,218 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:56,218 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:56,219 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:56,219 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:56,222 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:56,238 [INFO] Found LFX Member 'AddressForAll Institute'
+2025-07-01 04:19:56,239 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:56,351 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /addressforall-institute.svg HTTP/1.1" 200 6999
+2025-07-01 04:19:56,352 [WARNING] Member.crunchbase for 'AddressForAll Institute' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:56,352 [DEBUG] Looking for 'Amazon Web Services'
+2025-07-01 04:19:56,352 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:56,352 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:56,353 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:56,353 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:56,353 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:56,354 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:56,354 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:56,355 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:56,371 [INFO] Found LFX Member 'Amazon Web Services, Inc.'
+2025-07-01 04:19:56,372 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:56,472 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /amazon-web-services-inc.svg HTTP/1.1" 200 7264
+2025-07-01 04:19:56,472 [DEBUG] Looking for 'Camptocamp'
+2025-07-01 04:19:56,473 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:56,473 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:56,473 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:56,473 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:56,473 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:56,474 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:56,474 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:56,475 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:56,491 [INFO] Found LFX Member 'Camptocamp'
+2025-07-01 04:19:56,492 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:56,603 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /camptocamp.svg HTTP/1.1" 200 4677
+2025-07-01 04:19:56,604 [DEBUG] Looking for 'CARIAD SE'
+2025-07-01 04:19:56,604 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:56,604 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:56,604 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:56,604 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:56,604 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:56,605 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:56,605 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:56,606 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:56,623 [INFO] Found LFX Member 'CARIAD SE'
+2025-07-01 04:19:56,623 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:56,783 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /CARIADSE.svg HTTP/1.1" 200 5144
+2025-07-01 04:19:56,784 [WARNING] Member.crunchbase for 'CARIAD SE' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:56,784 [DEBUG] Looking for 'con terra'
+2025-07-01 04:19:56,784 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:56,784 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:56,784 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:56,784 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:56,784 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:56,785 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:56,786 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:56,786 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:56,802 [INFO] Found LFX Member 'con terra'
+2025-07-01 04:19:56,802 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:56,921 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /con-terra.svg HTTP/1.1" 200 2494
+2025-07-01 04:19:56,921 [WARNING] Member.crunchbase for 'con terra' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:56,921 [DEBUG] Looking for 'CoreLogic Solutions'
+2025-07-01 04:19:56,921 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:56,922 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:56,922 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:56,922 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:56,922 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:56,923 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:56,923 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:56,924 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:56,940 [INFO] Found LFX Member 'CoreLogic Solutions, LLC.'
+2025-07-01 04:19:56,940 [DEBUG] Starting new HTTPS connection (1): lf-platform-documents-prod.s3.amazonaws.com:443
+2025-07-01 04:19:57,042 [DEBUG] https://lf-platform-documents-prod.s3.amazonaws.com:443 "GET /corelogic_solutions_llc_1744078252359_001QP00000RVtIXYA1.svg HTTP/1.1" 200 7215
+2025-07-01 04:19:57,043 [WARNING] Member.crunchbase for 'CoreLogic Solutions, LLC.' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:57,043 [DEBUG] Looking for 'Crunchy Data Solutions'
+2025-07-01 04:19:57,043 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:57,043 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:57,043 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:57,044 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:57,044 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:57,045 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:57,045 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:57,045 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:57,061 [INFO] Found LFX Member 'Crunchy Data Solutions, Inc.'
+2025-07-01 04:19:57,062 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:57,198 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /crunchy-data-solutions%2C-inc..svg HTTP/1.1" 200 11185
+2025-07-01 04:19:57,198 [DEBUG] Looking for 'Development Seed'
+2025-07-01 04:19:57,199 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:57,199 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:57,199 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:57,199 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:57,199 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:57,200 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:57,201 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:57,201 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:57,217 [INFO] Found LFX Member 'Development Seed'
+2025-07-01 04:19:57,218 [DEBUG] Starting new HTTPS connection (1): lf-platform-documents-prod.s3.amazonaws.com:443
+2025-07-01 04:19:57,303 [DEBUG] https://lf-platform-documents-prod.s3.amazonaws.com:443 "GET /development_seed_1704291457010_0012M00002tHpgZQAS.svg HTTP/1.1" 200 9260
+2025-07-01 04:19:57,304 [DEBUG] Looking for 'E Foundation'
+2025-07-01 04:19:57,304 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:57,304 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:57,304 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:57,305 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:57,305 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:57,306 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:57,306 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:57,307 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:57,323 [INFO] Found LFX Member 'E Foundation'
+2025-07-01 04:19:57,323 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:57,415 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /e-foundation.svg HTTP/1.1" 200 19529
+2025-07-01 04:19:57,415 [WARNING] Member.logo for 'E Foundation' invalid format
+2025-07-01 04:19:57,415 [INFO] Creating text logo for 'E Foundation'
+2025-07-01 04:19:57,450 [WARNING] Member.crunchbase for 'E Foundation' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:57,450 [DEBUG] Looking for 'Environmental Systems Research Institute'
+2025-07-01 04:19:57,450 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:57,450 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:57,450 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:57,451 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:57,451 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:57,452 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:57,452 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:57,453 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:57,469 [INFO] Found LFX Member 'Environmental Systems Research Institute, Inc. (ESRI)'
+2025-07-01 04:19:57,470 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:57,575 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /environmentalsystemsresearchinstituteinc.esri.svg HTTP/1.1" 200 87406
+2025-07-01 04:19:57,613 [DEBUG] Looking for 'Fresno County Department of Public Works & Planning'
+2025-07-01 04:19:57,613 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:57,613 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:57,613 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:57,614 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:57,614 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:57,615 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:57,615 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:57,616 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:57,632 [INFO] Found LFX Member 'Fresno County Department of Public Works & Planning'
+2025-07-01 04:19:57,632 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:57,763 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /fresno-county-department-of-public-works-%26-planning.svg HTTP/1.1" 200 32372
+2025-07-01 04:19:57,786 [WARNING] Member.crunchbase for 'Fresno County Department of Public Works & Planning' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:57,786 [DEBUG] Looking for 'GlobalLogic'
+2025-07-01 04:19:57,786 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:57,786 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:57,787 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:57,787 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:57,787 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:57,788 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:57,788 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:57,789 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:57,805 [INFO] Found LFX Member 'GlobalLogic Inc.'
+2025-07-01 04:19:57,805 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:57,965 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /globallogicinc..svg HTTP/1.1" 200 167098
+2025-07-01 04:19:58,036 [DEBUG] Looking for 'Grab Holdings'
+2025-07-01 04:19:58,036 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:58,036 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:58,036 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:58,036 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:58,036 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:58,037 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:58,038 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:58,038 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:58,054 [INFO] Found LFX Member 'Grab Holdings Inc.'
+2025-07-01 04:19:58,054 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:58,208 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /grab.svg HTTP/1.1" 200 403940
+2025-07-01 04:19:58,293 [DEBUG] Looking for 'Humanitarian OpenstreetMap Team'
+2025-07-01 04:19:58,293 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:58,293 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:58,293 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:58,294 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:58,294 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:58,295 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:58,295 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:58,296 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:58,312 [INFO] Found LFX Member 'Humanitarian OpenstreetMap Team'
+2025-07-01 04:19:58,313 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:58,445 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /humanitarian-openstreetmap-team.svg HTTP/1.1" 200 32580
+2025-07-01 04:19:58,468 [WARNING] Member.crunchbase for 'Humanitarian OpenstreetMap Team' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:58,468 [DEBUG] Looking for 'Hyundai Motor Group'
+2025-07-01 04:19:58,468 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:58,468 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:58,469 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:58,469 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:58,469 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:58,470 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:58,470 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:58,471 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:58,487 [INFO] Found LFX Member 'Hyundai Motor Group'
+2025-07-01 04:19:58,488 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:58,656 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /hyundai-motor-group.svg HTTP/1.1" 200 7014
+2025-07-01 04:19:58,657 [DEBUG] Looking for 'Inframappa'
+2025-07-01 04:19:58,657 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:58,657 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:58,657 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:58,658 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:58,658 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:58,659 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:58,659 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:58,660 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:58,675 [INFO] Found LFX Member 'Inframappa'
+2025-07-01 04:19:58,676 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:58,854 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /Inframappa.svg HTTP/1.1" 200 134786
+2025-07-01 04:19:58,904 [WARNING] Member.crunchbase for 'Inframappa' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:58,905 [DEBUG] Looking for 'Intellias Global'
+2025-07-01 04:19:58,905 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:58,905 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:58,905 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:58,905 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:58,905 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:58,907 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:58,907 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:58,907 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:58,923 [INFO] Found LFX Member 'Intellias Global Limited'
+2025-07-01 04:19:58,924 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:59,059 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /intellias.svg HTTP/1.1" 200 3042
+2025-07-01 04:19:59,059 [WARNING] Member.crunchbase for 'Intellias Global Limited' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:59,060 [DEBUG] Looking for 'krickcom + KG'
+2025-07-01 04:19:59,060 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,060 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,060 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,060 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,060 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,061 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,062 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,062 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,078 [INFO] Found LFX Member 'krick.com GmbH + Co. KG'
+2025-07-01 04:19:59,079 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:59,199 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /krick.com-gmbh-%2B-co.-kg.svg HTTP/1.1" 200 2874
+2025-07-01 04:19:59,199 [WARNING] Member.crunchbase for 'krick.com GmbH + Co. KG' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:59,200 [DEBUG] Looking for 'Maxar Technologies Inc'
+2025-07-01 04:19:59,200 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,200 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,200 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,200 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,201 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,202 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,202 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,202 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,218 [INFO] Found LFX Member 'Maxar Technologies Inc'
+2025-07-01 04:19:59,219 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:59,392 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /maxar-technologies-inc.svg HTTP/1.1" 200 1421
+2025-07-01 04:19:59,392 [WARNING] Member.crunchbase for 'Maxar Technologies Inc' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:59,392 [DEBUG] Looking for 'Meta Platforms'
+2025-07-01 04:19:59,392 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,392 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,392 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,393 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,393 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,394 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,394 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,395 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,410 [INFO] Found LFX Member 'Meta Platforms, Inc.'
+2025-07-01 04:19:59,411 [DEBUG] Starting new HTTPS connection (1): lf-platform-documents-prod.s3.amazonaws.com:443
+2025-07-01 04:19:59,448 [DEBUG] https://lf-platform-documents-prod.s3.amazonaws.com:443 "GET /meta_platforms_inc_1714768245542_0014100000TdzwSAAR.svg HTTP/1.1" 200 3383
+2025-07-01 04:19:59,449 [DEBUG] Looking for 'Microsoft Corporation'
+2025-07-01 04:19:59,449 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,449 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,449 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,449 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,449 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,450 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,451 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,451 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,467 [INFO] Found LFX Member 'Microsoft Corporation'
+2025-07-01 04:19:59,468 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:59,564 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /microsoft-corporation.svg HTTP/1.1" 200 6477
+2025-07-01 04:19:59,565 [DEBUG] Looking for 'MobilityData'
+2025-07-01 04:19:59,565 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,565 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,565 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,566 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,566 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,567 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,567 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,567 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,584 [INFO] Found LFX Member 'MobilityData'
+2025-07-01 04:19:59,584 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:59,688 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /mobilitydata.svg HTTP/1.1" 200 10892
+2025-07-01 04:19:59,688 [WARNING] Member.crunchbase for 'MobilityData' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:59,688 [DEBUG] Looking for 'NAVIS-AMS'
+2025-07-01 04:19:59,689 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,689 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,689 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,689 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,689 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,690 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,690 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,691 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,707 [INFO] Found LFX Member 'NAVIS-AMS'
+2025-07-01 04:19:59,708 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:59,823 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /navis-ams.svg HTTP/1.1" 200 7468
+2025-07-01 04:19:59,823 [WARNING] Member.crunchbase for 'NAVIS-AMS' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:19:59,824 [DEBUG] Looking for 'Nearmap Australia'
+2025-07-01 04:19:59,824 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,824 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,824 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,824 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,825 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,826 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,826 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,826 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,842 [INFO] Found LFX Member 'Nearmap Australia Pty Ltd'
+2025-07-01 04:19:59,843 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:19:59,938 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /nearmap-ltd.svg HTTP/1.1" 200 10639
+2025-07-01 04:19:59,939 [DEBUG] Looking for 'Neusoft Corporation'
+2025-07-01 04:19:59,939 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:19:59,939 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:19:59,939 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:19:59,939 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:19:59,939 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:19:59,941 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:19:59,941 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:19:59,941 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:19:59,958 [INFO] Found LFX Member 'Neusoft Corporation'
+2025-07-01 04:19:59,958 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,050 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /neusoft-corporation.svg HTTP/1.1" 200 12301
+2025-07-01 04:20:00,051 [WARNING] Member.logo for 'Neusoft Corporation' invalid format
+2025-07-01 04:20:00,051 [INFO] Creating text logo for 'Neusoft Corporation'
+2025-07-01 04:20:00,052 [DEBUG] Looking for 'Niantic'
+2025-07-01 04:20:00,052 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,052 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,052 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,053 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,053 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,054 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,054 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,055 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,071 [INFO] Found LFX Member 'Niantic'
+2025-07-01 04:20:00,071 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,206 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /niantic.svg HTTP/1.1" 200 12088
+2025-07-01 04:20:00,207 [DEBUG] Looking for 'Precisely Holdings'
+2025-07-01 04:20:00,207 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,207 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,207 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,208 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,208 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,209 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,209 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,209 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,225 [INFO] Found LFX Member 'Precisely Holdings, LLC'
+2025-07-01 04:20:00,226 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,320 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /preciselyholdingsllc.svg HTTP/1.1" 200 2460
+2025-07-01 04:20:00,320 [DEBUG] Looking for 'PTV Group'
+2025-07-01 04:20:00,320 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,320 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,321 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,321 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,321 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,322 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,322 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,323 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,339 [INFO] Found LFX Member 'PTV Group'
+2025-07-01 04:20:00,339 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,438 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /ptv-group.svg HTTP/1.1" 200 2250
+2025-07-01 04:20:00,439 [DEBUG] Looking for 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI'
+2025-07-01 04:20:00,439 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,439 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,439 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,439 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,439 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,440 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,441 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,441 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,457 [INFO] Found LFX Member 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI'
+2025-07-01 04:20:00,458 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,569 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /resource-advancement-for-inquisitive-kids-international-rafiki.svg HTTP/1.1" 200 731
+2025-07-01 04:20:00,569 [WARNING] Member.logo for 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI' invalid format
+2025-07-01 04:20:00,569 [INFO] Creating text logo for 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI'
+2025-07-01 04:20:00,570 [WARNING] Member.crunchbase for 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:20:00,570 [DEBUG] Looking for 'SafeGraph'
+2025-07-01 04:20:00,570 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,570 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,570 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,571 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,571 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,572 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,572 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,573 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,589 [INFO] Found LFX Member 'SafeGraph'
+2025-07-01 04:20:00,589 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,675 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /safegraph.svg HTTP/1.1" 200 44506
+2025-07-01 04:20:00,693 [DEBUG] Looking for 'Sanborn'
+2025-07-01 04:20:00,693 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,693 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,693 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,694 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,694 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,695 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,695 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,696 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,712 [INFO] Found LFX Member 'Sanborn'
+2025-07-01 04:20:00,712 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,812 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /sanborn.svg HTTP/1.1" 200 7578
+2025-07-01 04:20:00,812 [DEBUG] Looking for 'Sparkgeo'
+2025-07-01 04:20:00,813 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,813 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,813 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,813 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,813 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,814 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,815 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,815 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,831 [INFO] Found LFX Member 'Sparkgeo'
+2025-07-01 04:20:00,831 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:00,956 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /sparkgeo.svg HTTP/1.1" 200 4616
+2025-07-01 04:20:00,957 [DEBUG] Looking for 'TomTom International BV'
+2025-07-01 04:20:00,957 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:00,957 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:00,957 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:00,958 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:00,958 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:00,959 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:00,959 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:00,960 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:00,975 [INFO] Found LFX Member 'TomTom International B.V.'
+2025-07-01 04:20:00,976 [DEBUG] Starting new HTTPS connection (1): lf-platform-documents-prod.s3.amazonaws.com:443
+2025-07-01 04:20:01,131 [DEBUG] https://lf-platform-documents-prod.s3.amazonaws.com:443 "GET /tomtom_international_b_v_1730754807123_0012M00002dRRfPQAW.svg HTTP/1.1" 200 2739
+2025-07-01 04:20:01,131 [DEBUG] Looking for 'Tripadvisor'
+2025-07-01 04:20:01,132 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:01,132 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:01,132 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:01,132 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:01,132 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:01,133 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:01,133 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:01,134 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:01,153 [INFO] Found LFX Member 'Tripadvisor LLC'
+2025-07-01 04:20:01,154 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:01,264 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /tripadvisor-llc.svg HTTP/1.1" 200 3247
+2025-07-01 04:20:01,264 [WARNING] Member.crunchbase for 'Tripadvisor LLC' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:20:01,265 [DEBUG] Looking for 'Uber Technologies'
+2025-07-01 04:20:01,265 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:01,265 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:01,265 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:01,265 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:01,266 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:01,267 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:01,267 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:01,267 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:01,283 [INFO] Found LFX Member 'Uber Technologies Inc.'
+2025-07-01 04:20:01,284 [DEBUG] Starting new HTTPS connection (1): lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443
+2025-07-01 04:20:01,417 [DEBUG] https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com:443 "GET /uber-technologies-inc.svg HTTP/1.1" 200 2519
+2025-07-01 04:20:01,417 [DEBUG] Looking for 'Wherobots, Inc'
+2025-07-01 04:20:01,418 [DEBUG] Initializing backend: None http_cache
+2025-07-01 04:20:01,418 [DEBUG] Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-07-01 04:20:01,418 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:responses
+2025-07-01 04:20:01,418 [DEBUG] Initialized SQLiteDict with serializer: None
+2025-07-01 04:20:01,418 [DEBUG] Opening connection to /home/runner/work/landscape/landscape/landscape-tools/http_cache.sqlite:redirects
+2025-07-01 04:20:01,419 [DEBUG] Cache directives from request headers: CacheDirectives()
+2025-07-01 04:20:01,419 [DEBUG] Pre-read cache checks: Passed
+2025-07-01 04:20:01,420 [DEBUG] Post-read cache actions: CacheActions(expire_after=-1)
+2025-07-01 04:20:01,436 [INFO] Found LFX Member 'Wherobots, Inc'
+2025-07-01 04:20:01,436 [DEBUG] Starting new HTTPS connection (1): lf-platform-documents-prod.s3.amazonaws.com:443
+2025-07-01 04:20:01,476 [DEBUG] https://lf-platform-documents-prod.s3.amazonaws.com:443 "GET /wherobots_inc_1235_1733521468141_001QP00000ECtQTYA1.svg HTTP/1.1" 200 8033
+2025-07-01 04:20:01,477 [WARNING] Member.crunchbase for 'Wherobots, Inc' must be set to a valid Crunchbase URL - 'None' provided
+2025-07-01 04:20:01,477 [INFO] Processing 'Overture Maps Members' items
+2025-07-01 04:20:01,477 [INFO] Processing 'Addresscloud'...
+2025-07-01 04:20:01,477 [INFO] Added 'Addresscloud' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,477 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/addresscloud.svg'
+2025-07-01 04:20:01,478 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,478 [DEBUG] Setting 'name' to 'Addresscloud'
+2025-07-01 04:20:01,478 [DEBUG] Setting 'homepage_url' to 'https://addresscloud.com/'
+2025-07-01 04:20:01,478 [DEBUG] Setting 'logo' to 'addresscloud.svg'
+2025-07-01 04:20:01,478 [DEBUG] Setting 'description' to 'Addresscloud is a company that provides software services to geocode and risk assess addresses, with a focus on providing insurance companies with peril scores including flood risk, wildfire risk and subsidence risk using data from the Ordnance Survey,...'
+2025-07-01 04:20:01,478 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/addresscloud'
+2025-07-01 04:20:01,478 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/addresscloud' for 'Addresscloud'
+2025-07-01 04:20:01,478 [INFO] Processing 'AddressForAll Institute'...
+2025-07-01 04:20:01,478 [INFO] Added 'AddressForAll Institute' to Landscape in SubCategory 'Contributor'
+2025-07-01 04:20:01,478 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/addressforall_institute.svg'
+2025-07-01 04:20:01,478 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,478 [DEBUG] Setting 'name' to 'AddressForAll Institute'
+2025-07-01 04:20:01,478 [DEBUG] Setting 'homepage_url' to 'https://addressforall.org/'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'logo' to 'addressforall_institute.svg'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'description' to 'The AddressForAll Institute is a non profit NGO that maintains an Open Address Data Base, having social impact through technology.'
+2025-07-01 04:20:01,479 [DEBUG] No Crunchbase entry for 'AddressForAll Institute' - specifying name instead
+2025-07-01 04:20:01,479 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/addressforall-institute' for 'AddressForAll Institute'
+2025-07-01 04:20:01,479 [INFO] Processing 'Amazon Web Services, Inc.'...
+2025-07-01 04:20:01,479 [INFO] Added 'Amazon Web Services, Inc.' to Landscape in SubCategory 'Steering Membership'
+2025-07-01 04:20:01,479 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/amazon_web_services_inc.svg'
+2025-07-01 04:20:01,479 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,479 [DEBUG] Setting 'name' to 'Amazon Web Services, Inc.'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'homepage_url' to 'https://amazon.com/'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'logo' to 'amazon_web_services_inc.svg'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'description' to 'Amazon.com, Inc. is an online retailer, offering new, refurbished and used products including books, DVDs, CDs, MP3 downloads, software, video games, electronics, furniture, apparel, jewelry, and toys. The company also manufactures consumer electronics (notably the Amazon Kindle and the Kindle Fire) and provides cloud computing services. Amazon is a publicly owned company and is based out of Seattle, WA.'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/amazon-web-services'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'twitter' to 'https://twitter.com/amazon'
+2025-07-01 04:20:01,479 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/amazon' for 'Amazon Web Services, Inc.'
+2025-07-01 04:20:01,479 [INFO] Processing 'Camptocamp'...
+2025-07-01 04:20:01,479 [INFO] Added 'Camptocamp' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,479 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/camptocamp.svg'
+2025-07-01 04:20:01,480 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,480 [DEBUG] Setting 'name' to 'Camptocamp'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'homepage_url' to 'https://camptocamp.com/'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'logo' to 'camptocamp.svg'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'description' to 'Camptocamp is a service-oriented editor and integrator of Open Source software applications for Geospatial Solutions, Business Solutions, and Infrastructure Solutions.
+
+
+
+Camptocamp SA, Lausanne
+
+Address:
+
+PSE-A 
+
+Parc Scientifique EPFL
+
+1015 Lausanne
+
+Switzerland
+
++41 21 619 10 10
+
+
+
+Camptocamp France SAS, Chamb��_ry
+
+Address:
+
+Savoie Technolac
+
+BP 352
+
+48 avenue du Lac du Bourget
+
+73372 Le Bourget du Lac, Cedex
+
+France
+
+E-mail:	info@camptocamp.com
+
+Phone:	+33 4 79 44 44 94
+
+
+
+Camptocamp Austria, Vienna
+
+Address:
+
+Ferdinand Gassauer
+
+Am Heumarkt,13/II/2
+
+1031  Wien
+
+��__sterreich
+
+E-mail:                  
+
+info@camptocamp.com
+
+Phone:	+43 1 712 21 94 0'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/camptocamp'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'twitter' to 'https://twitter.com/camptocamp'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/camptocamp-sa' for 'Camptocamp'
+2025-07-01 04:20:01,480 [INFO] Processing 'CARIAD SE'...
+2025-07-01 04:20:01,480 [INFO] Added 'CARIAD SE' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,480 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/cariad_se.svg'
+2025-07-01 04:20:01,480 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,480 [DEBUG] Setting 'name' to 'CARIAD SE'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'homepage_url' to 'https://cariad.technology/'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'logo' to 'cariad_se.svg'
+2025-07-01 04:20:01,480 [DEBUG] Setting 'description' to 'CARIAD is an automotive software company in the Volkswagen Group that consolidates and further expands the Group's software competencies to transform automotive mobility. The company develops the leading tech stack for the automotive industry with the mission to make the automotive experience safer, more sustainable, and more comfortable in a new way – for everyone, everywhere. 
+CARIAD builds a uniform software platform for all brands of the Volkswagen Group, which includes a unified and scalable architecture, an operating system, and an automotive cloud. 
+We transform cars into software-defined vehicles that seamlessly integrate the automotive experience into our digital life, turning the Volkswagen Group into a software-driven mobility provider. CARIAD’s headquarters is located in Germany and co-operates with international Volkswagen Group teams in the US and China. 
+Visit: https://cariad.technology'
+2025-07-01 04:20:01,480 [DEBUG] No Crunchbase entry for 'CARIAD SE' - specifying name instead
+2025-07-01 04:20:01,480 [INFO] Processing 'con terra'...
+2025-07-01 04:20:01,480 [INFO] Added 'con terra' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,481 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/con_terra.svg'
+2025-07-01 04:20:01,481 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,481 [DEBUG] Setting 'name' to 'con terra'
+2025-07-01 04:20:01,481 [DEBUG] Setting 'homepage_url' to 'https://conterra.de/'
+2025-07-01 04:20:01,481 [DEBUG] Setting 'logo' to 'con_terra.svg'
+2025-07-01 04:20:01,481 [DEBUG] Setting 'description' to 'con terra specializes in providing advanced Geographic Information System (GIS) solutions that integrate spatial and non-spatial data, enabling clients to visualize and analyze complex datasets effectively.'
+2025-07-01 04:20:01,481 [DEBUG] No Crunchbase entry for 'con terra' - specifying name instead
+2025-07-01 04:20:01,481 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/con-terra-gmbh' for 'con terra'
+2025-07-01 04:20:01,481 [INFO] Processing 'CoreLogic Solutions, LLC.'...
+2025-07-01 04:20:01,481 [INFO] Added 'CoreLogic Solutions, LLC.' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,481 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/corelogic_solutions_llc.svg'
+2025-07-01 04:20:01,481 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,481 [DEBUG] Setting 'name' to 'CoreLogic Solutions, LLC.'
+2025-07-01 04:20:01,481 [DEBUG] Setting 'homepage_url' to 'https://corelogic.com/'
+2025-07-01 04:20:01,481 [DEBUG] Setting 'logo' to 'corelogic_solutions_llc.svg'
+2025-07-01 04:20:01,481 [DEBUG] Setting 'description' to 'CoreLogic® provides integrated property information, analytics, and data-enabled services that empower various stakeholders in the real estate ecosystem, including agents, lenders, and insurers, by leveraging a vast database to deliver predictive decis...'
+2025-07-01 04:20:01,481 [DEBUG] No Crunchbase entry for 'CoreLogic Solutions, LLC.' - specifying name instead
+2025-07-01 04:20:01,482 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/corelogic' for 'CoreLogic Solutions, LLC.'
+2025-07-01 04:20:01,482 [INFO] Processing 'Crunchy Data Solutions, Inc.'...
+2025-07-01 04:20:01,482 [INFO] Added 'Crunchy Data Solutions, Inc.' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,482 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/crunchy_data_solutions_inc.svg'
+2025-07-01 04:20:01,482 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,482 [DEBUG] Setting 'name' to 'Crunchy Data Solutions, Inc.'
+2025-07-01 04:20:01,482 [DEBUG] Setting 'homepage_url' to 'https://crunchydata.com/'
+2025-07-01 04:20:01,482 [DEBUG] Setting 'logo' to 'crunchy_data_solutions_inc.svg'
+2025-07-01 04:20:01,482 [DEBUG] Setting 'description' to 'Deploy enterprise-ready PostgreSQL on your choice of platform and infrastructure with commercial support from Crunchy Data.'
+2025-07-01 04:20:01,482 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/crunchy-data-solutions-inc-'
+2025-07-01 04:20:01,482 [DEBUG] Setting 'twitter' to 'https://twitter.com/crunchydata'
+2025-07-01 04:20:01,482 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/crunchy-data-solutions-inc-' for 'Crunchy Data Solutions, Inc.'
+2025-07-01 04:20:01,482 [INFO] Processing 'Development Seed'...
+2025-07-01 04:20:01,482 [INFO] Added 'Development Seed' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,482 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/development_seed.svg'
+2025-07-01 04:20:01,482 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,482 [DEBUG] Setting 'name' to 'Development Seed'
+2025-07-01 04:20:01,482 [DEBUG] Setting 'homepage_url' to 'https://developmentseed.org/'
+2025-07-01 04:20:01,483 [DEBUG] Setting 'logo' to 'development_seed.svg'
+2025-07-01 04:20:01,483 [DEBUG] Setting 'description' to 'Development Seed is a company that specializes in building tools that derive useful insights from complex data. They help solve hard social and environmental problems with open data and open technology.'
+2025-07-01 04:20:01,483 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/development-seed'
+2025-07-01 04:20:01,483 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/development-seed' for 'Development Seed'
+2025-07-01 04:20:01,483 [INFO] Processing 'E Foundation'...
+2025-07-01 04:20:01,483 [INFO] Added 'E Foundation' to Landscape in SubCategory 'Contributor'
+2025-07-01 04:20:01,483 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/e_foundation.svg'
+2025-07-01 04:20:01,483 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,483 [DEBUG] Setting 'name' to 'E Foundation'
+2025-07-01 04:20:01,483 [DEBUG] Setting 'homepage_url' to 'https://e.foundation/'
+2025-07-01 04:20:01,483 [DEBUG] Setting 'logo' to 'e_foundation.svg'
+2025-07-01 04:20:01,483 [DEBUG] Setting 'description' to 'e Foundation is a company that provides deGoogled smartphone operating systems and online services. Their flagship product, /e/OS, offers a privacy-enabled smartphone operating system that prioritizes user data privacy and security. Founded by Gaël Duv...'
+2025-07-01 04:20:01,483 [DEBUG] No Crunchbase entry for 'E Foundation' - specifying name instead
+2025-07-01 04:20:01,483 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/eelo.io' for 'E Foundation'
+2025-07-01 04:20:01,483 [INFO] Processing 'Environmental Systems Research Institute, Inc. (ESRI)'...
+2025-07-01 04:20:01,483 [INFO] Added 'Environmental Systems Research Institute, Inc. (ESRI)' to Landscape in SubCategory 'General Membership'
+2025-07-01 04:20:01,483 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/environmental_systems_research_institute_inc.svg'
+2025-07-01 04:20:01,484 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,484 [DEBUG] Setting 'name' to 'Environmental Systems Research Institute, Inc. (ESRI)'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'homepage_url' to 'https://esri.com/'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'logo' to 'environmental_systems_research_institute_inc.svg'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'description' to 'Esri develops geographic information system (GIS) solutions that function as an integral component in nearly every type of organization. The company's focus remains on producing excellent software and delivering exceptional service to users. Esri believes that better information makes for better decisions. Its reputation is built on contributing technical knowledge, special people, and valuable experience to the collection, analysis, and communication of geographic information. The software is used by more than 350,000 organizations worldwide including most U.S. federal agencies and national mapping agencies, 45 of the top 50 petroleum companies, all 50 U.S. state health departments, most forestry companies, more than 24,000 state and local governments, and many others in dozens of industries.'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/esri'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'twitter' to 'https://twitter.com/Esri'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/esri' for 'Environmental Systems Research Institute, Inc. (ESRI)'
+2025-07-01 04:20:01,484 [INFO] Processing 'Fresno County Department of Public Works & Planning'...
+2025-07-01 04:20:01,484 [INFO] Added 'Fresno County Department of Public Works & Planning' to Landscape in SubCategory 'Contributor'
+2025-07-01 04:20:01,484 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/fresno_county_department_of_public_works_planning.svg'
+2025-07-01 04:20:01,484 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,484 [DEBUG] Setting 'name' to 'Fresno County Department of Public Works & Planning'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'homepage_url' to 'https://fresnocountyca.gov/'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'logo' to 'fresno_county_department_of_public_works_planning.svg'
+2025-07-01 04:20:01,484 [DEBUG] Setting 'description' to 'Fresno County is a top agricultural producer in California, providing county services and community workshops. Sally Gomez appointed as Interim County Librarian.'
+2025-07-01 04:20:01,484 [DEBUG] No Crunchbase entry for 'Fresno County Department of Public Works & Planning' - specifying name instead
+2025-07-01 04:20:01,484 [INFO] Processing 'GlobalLogic Inc.'...
+2025-07-01 04:20:01,484 [INFO] Added 'GlobalLogic Inc.' to Landscape in SubCategory 'Contributor'
+2025-07-01 04:20:01,485 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/globallogic_inc.svg'
+2025-07-01 04:20:01,485 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,485 [DEBUG] Setting 'name' to 'GlobalLogic Inc.'
+2025-07-01 04:20:01,485 [DEBUG] Setting 'homepage_url' to 'https://globallogic.com/'
+2025-07-01 04:20:01,485 [DEBUG] Setting 'logo' to 'globallogic_inc.svg'
+2025-07-01 04:20:01,485 [DEBUG] Setting 'description' to '1420 Spring Hill Road, Suite 155
+
+McLean, Virginia 22102
+
+USA
+
+Phone : +1-703-847-5900
+
+Fax: +1-703-847-5901
+
+U.S. Headquarters & Silicon Valley Innovation Center
+
+1740 Technology Drive, Suite 530
+
+San Jose, California 95110
+
+USA
+
+Phone: +1-408-273-8900
+
+Fax: +1-408-273-8799
+
+
+
+Wikpedia: 
+
+GlobalLogic was initially founded as 'Induslogic' in 2000, with headquarters in Vienna, Virginia, a delivery center in Noida, India, and funding from New Atlantic Ventures. In 2002 they appointed Mr. Peter Harrison as CEO. Mr. Harrison was instrumental in setting the company on a new path to become a provider of Outsourced Product Engineering services. In 2004 Vasudev Bhandarkar joined Globallogic as its first Independent Board Member.
+
+GlobalLogic received Series B Venture round funding of $12.5M from Westbridge Capital and New Enterprise Associates in 2006[5] and acquired Lambent Technologies, a offshore software R&D services firm based in Nagpur, India led by Mr. Shashikant Chaudhary who is currently Managing Director of Globallogic's India operations. Lambent Technologies eventually became Globallogic's Center of Excellence for Mobile Products. Induslogic became GlobalLogic after its merger with Bonus Technology, an offshore software R&D services firm based in New Jersey with operations out of Kyiv, Ukraine and specializing in mobile and telecommunication technologies.[3] In 2007, GlobalLogic opened delivery centers in Beijing.[6] In 2007, Globallogic appointed Mr. Shashank Samant as President of the company.
+
+In 2008, GlobalLogic opened in London, England and named Mike Daniels as Chairman of the Board.[7] The company received $29.5M in Series C venture round funding from Sequoia Capital, New Atlantic Ventures and New Enterprise Associates.[8] In 2009, GlobalLogic partnered with LumenData, a product development and services firm focused on enterprise data management, to open a delivery center in Bangalore.[9] The company also acquired two offshore software R&D services firms: InterObject and Cubika. InterObject is based in Ramat Gan, Israel and specializes in embedded software, mobile and streaming media products.[10] In 2010, GlobalLogic received funding from Goldman Sachs.[4]
+
+In 2011, GlobalLogic opened an office in Santiago, Chile to expand its operations in South America.[11] The company acquired Rofous Software, a content engineering firm headquartered in Hyderabad, India.[12] In 2012 the company appointed Mr. Shashank Samant as it's CEO. The company also acquired Method Incorporated, a brand experience agency with offices in San Francisco, New York City and London.[13]'
+2025-07-01 04:20:01,485 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/globallogic'
+2025-07-01 04:20:01,485 [DEBUG] Setting 'twitter' to 'https://twitter.com/GlobalLogic'
+2025-07-01 04:20:01,485 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/globallogic' for 'GlobalLogic Inc.'
+2025-07-01 04:20:01,485 [INFO] Processing 'Grab Holdings Inc.'...
+2025-07-01 04:20:01,485 [INFO] Added 'Grab Holdings Inc.' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,485 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/grab_holdings_inc.svg'
+2025-07-01 04:20:01,486 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,486 [DEBUG] Setting 'name' to 'Grab Holdings Inc.'
+2025-07-01 04:20:01,486 [DEBUG] Setting 'homepage_url' to 'https://grab.com/'
+2025-07-01 04:20:01,486 [DEBUG] Setting 'logo' to 'grab_holdings_inc.svg'
+2025-07-01 04:20:01,486 [DEBUG] Setting 'description' to 'Grab Holdings Inc., commonly known as Grab, is a Singaporean multinational ride-hailing company based in Queenstown, Singapore.'
+2025-07-01 04:20:01,486 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/grabtaxi'
+2025-07-01 04:20:01,486 [DEBUG] Setting 'twitter' to 'https://twitter.com/GrabSG'
+2025-07-01 04:20:01,486 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/grabapp' for 'Grab Holdings Inc.'
+2025-07-01 04:20:01,486 [INFO] Processing 'Humanitarian OpenstreetMap Team'...
+2025-07-01 04:20:01,486 [INFO] Added 'Humanitarian OpenstreetMap Team' to Landscape in SubCategory 'Contributor'
+2025-07-01 04:20:01,486 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/humanitarian_openstreetmap_team.svg'
+2025-07-01 04:20:01,486 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,487 [DEBUG] Setting 'name' to 'Humanitarian OpenstreetMap Team'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'homepage_url' to 'https://hotosm.org/'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'logo' to 'humanitarian_openstreetmap_team.svg'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'description' to 'Humanitarian OpenStreetMap Team (HOT) is a charitable organization promoting humanitarian mapping globally through volunteer support, crisis response coordination, and open source software development.
+
+--- Merged Data:
+
+Humanitarian OpenStreetMap Team (HOT) is a charitable organization promoting humanitarian mapping globally through volunteer support, crisis response coordination, and open source software development.'
+2025-07-01 04:20:01,487 [DEBUG] No Crunchbase entry for 'Humanitarian OpenstreetMap Team' - specifying name instead
+2025-07-01 04:20:01,487 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/humanitarian-openstreetmap-team' for 'Humanitarian OpenstreetMap Team'
+2025-07-01 04:20:01,487 [INFO] Processing 'Hyundai Motor Group'...
+2025-07-01 04:20:01,487 [INFO] Added 'Hyundai Motor Group' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,487 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/hyundai_motor_group.svg'
+2025-07-01 04:20:01,487 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,487 [DEBUG] Setting 'name' to 'Hyundai Motor Group'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'homepage_url' to 'https://hyundai.com/'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'logo' to 'hyundai_motor_group.svg'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'description' to 'Hyundai Motor Company is headquartered in Gyeonggi-do Korea.
+
+
+
+Hyundai America Technical Center, Inc. (HATCI), is the design, technology and engineering arm for all North American models of the Korean-based Hyundai-KIA Motors Group.
+
+
+
+Hyundai America Technical Center, Inc.
+
+6800 Geddes Road
+
+Superior Township, MI 48198
+
+Phone: (734) 337-2500
+
+Fax: (734) 337-3168
+
+
+
+Hyundai Motor America
+
+P.O. Box 20850
+
+Fountain Valley, CA 92728-0850
+
+Phone: (800) 633-5151
+
+
+
+hyundaiusa.com 
+
+
+
+
+
+Hyundai Manufacturing
+
+Hyundai Motor Manufacturing Alabama, LLC
+
+700 Hyundai Blvd.
+
+Montgomery, Alabama 36105
+
+Phone: (334) 387-8000
+
+
+
+hmmausa.com 
+
+
+
+
+
+Kia Motors America
+
+111 Peters Canyon Road
+
+Irvine, CA 92603
+
+Phone: (949) 468-4800
+
+kia.com 
+
+
+
+Linked In: 
+
+About Hyundai Kia America Technical Center, Inc. (HATCI)
+
+
+
+Hyundai America Technical Center, Inc. ("HATCI"), is the design, technology and engineering arm for all North American models of the Korean-based Hyundai-KIA Automotive Group. 
+
+
+
+Hyundai Kia America Technical Center, Inc (HATCI) hires talented engineers, designers, technicians, and modelers. To see all of our openings visit www.hatci.com.
+
+
+
+Headquarters
+
+6800 Geddes Superior Township, MI 48198 United States
+
+
+
+Website
+
+http://www.hatci.com
+
+Industry
+
+Automotive
+
+
+
+Type
+
+Privately Held
+
+
+
+Company Size
+
+201-500 employees'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/hyundai-motor-america'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'twitter' to 'https://twitter.com/Hyundai'
+2025-07-01 04:20:01,487 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/hyundai-motor-india-ltd' for 'Hyundai Motor Group'
+2025-07-01 04:20:01,487 [INFO] Processing 'Inframappa'...
+2025-07-01 04:20:01,487 [INFO] Added 'Inframappa' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,487 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/inframappa.svg'
+2025-07-01 04:20:01,488 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,488 [DEBUG] Setting 'name' to 'Inframappa'
+2025-07-01 04:20:01,488 [DEBUG] Setting 'homepage_url' to 'https://inframappa.com/'
+2025-07-01 04:20:01,488 [DEBUG] Setting 'logo' to 'inframappa.svg'
+2025-07-01 04:20:01,488 [DEBUG] Setting 'description' to 'A single source of truth for all your infrastructure assets'
+2025-07-01 04:20:01,488 [DEBUG] Setting 'twitter' to 'https://twitter.com/InfraMappa'
+2025-07-01 04:20:01,488 [DEBUG] No Crunchbase entry for 'Inframappa' - specifying name instead
+2025-07-01 04:20:01,488 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/inframappa' for 'Inframappa'
+2025-07-01 04:20:01,488 [INFO] Processing 'Intellias Global Limited'...
+2025-07-01 04:20:01,488 [INFO] Added 'Intellias Global Limited' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,488 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/intellias_global_limited.svg'
+2025-07-01 04:20:01,488 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,488 [DEBUG] Setting 'name' to 'Intellias Global Limited'
+2025-07-01 04:20:01,488 [DEBUG] Setting 'homepage_url' to 'https://intellias.com/'
+2025-07-01 04:20:01,488 [DEBUG] Setting 'logo' to 'intellias_global_limited.svg'
+2025-07-01 04:20:01,488 [DEBUG] Setting 'description' to 'Intellias is a global technology partner that empowers leading brands worldwide with digital innovation and expertise in IT services, consulting, and product development.'
+2025-07-01 04:20:01,488 [DEBUG] No Crunchbase entry for 'Intellias Global Limited' - specifying name instead
+2025-07-01 04:20:01,488 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/intellias' for 'Intellias Global Limited'
+2025-07-01 04:20:01,489 [INFO] Processing 'krick.com GmbH + Co. KG'...
+2025-07-01 04:20:01,489 [INFO] Added 'krick.com GmbH + Co. KG' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,489 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/krick_com_gmbh_co.svg'
+2025-07-01 04:20:01,489 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,489 [DEBUG] Setting 'name' to 'krick.com GmbH + Co. KG'
+2025-07-01 04:20:01,489 [DEBUG] Setting 'homepage_url' to 'https://krick.com/'
+2025-07-01 04:20:01,489 [DEBUG] Setting 'logo' to 'krick_com_gmbh_co.svg'
+2025-07-01 04:20:01,489 [DEBUG] Setting 'description' to 'Der Robert Krick Verlag verlegt seit über 65 Jahren Verzeichnismedien wie Das Telefonbuch und Das Örtliche, und bietet lokale Informationsdienste für Print, Online und Mobil. Die iWelt AG bietet maßgeschneiderte Serviceleistungen in den Bereichen Provi...'
+2025-07-01 04:20:01,489 [DEBUG] No Crunchbase entry for 'krick.com GmbH + Co. KG' - specifying name instead
+2025-07-01 04:20:01,489 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/krickcom' for 'krick.com GmbH + Co. KG'
+2025-07-01 04:20:01,489 [INFO] Processing 'Maxar Technologies Inc'...
+2025-07-01 04:20:01,489 [INFO] Added 'Maxar Technologies Inc' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,489 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/maxar_technologies_inc.svg'
+2025-07-01 04:20:01,489 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,489 [DEBUG] Setting 'name' to 'Maxar Technologies Inc'
+2025-07-01 04:20:01,489 [DEBUG] Setting 'homepage_url' to 'https://maxar.com/'
+2025-07-01 04:20:01,489 [DEBUG] Setting 'logo' to 'maxar_technologies_inc.svg'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'description' to 'Maxar Technologies is a leading provider of integrated space infrastructure and Earth intelligence capabilities. They offer innovative solutions for commercial and government missions, including spacecraft, components, robotics, geospatial intelligence...'
+2025-07-01 04:20:01,490 [DEBUG] No Crunchbase entry for 'Maxar Technologies Inc' - specifying name instead
+2025-07-01 04:20:01,490 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/maxar-technologies-ltd' for 'Maxar Technologies Inc'
+2025-07-01 04:20:01,490 [INFO] Processing 'Meta Platforms, Inc.'...
+2025-07-01 04:20:01,490 [INFO] Added 'Meta Platforms, Inc.' to Landscape in SubCategory 'Steering Membership'
+2025-07-01 04:20:01,490 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/meta_platforms_inc.svg'
+2025-07-01 04:20:01,490 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,490 [DEBUG] Setting 'name' to 'Meta Platforms, Inc.'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'homepage_url' to 'https://meta.com/'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'logo' to 'meta_platforms_inc.svg'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'description' to 'Founded in 2004 and headquartered in Menlo Park, California, Facebook is an American online social media and social networking service company that provides various products to connect and share.'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/facebook'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'twitter' to 'https://twitter.com/Meta'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/facebook' for 'Meta Platforms, Inc.'
+2025-07-01 04:20:01,490 [INFO] Processing 'Microsoft Corporation'...
+2025-07-01 04:20:01,490 [INFO] Added 'Microsoft Corporation' to Landscape in SubCategory 'Steering Membership'
+2025-07-01 04:20:01,490 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/microsoft_corporation.svg'
+2025-07-01 04:20:01,490 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,490 [DEBUG] Setting 'name' to 'Microsoft Corporation'
+2025-07-01 04:20:01,490 [DEBUG] Setting 'homepage_url' to 'https://microsoft.com/'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'logo' to 'microsoft_corporation.svg'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'description' to 'The Microsoft Corporation is a publicly owned American software corporation headquartered in Redmond, Washington. Founded in 1975, the company develops, manufactures, licenses and supports a variety of computing products used by consumers and businesses. Some of their popular products include Windows, Xbox, Microsoft HoloLens, Microsoft Lumia, Outlook, Skype, OneDrive and Microsoft Band.'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/microsoft'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'twitter' to 'https://twitter.com/Microsoft'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/microsoft' for 'Microsoft Corporation'
+2025-07-01 04:20:01,491 [INFO] Processing 'MobilityData'...
+2025-07-01 04:20:01,491 [INFO] Added 'MobilityData' to Landscape in SubCategory 'Contributor'
+2025-07-01 04:20:01,491 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/mobilitydata.svg'
+2025-07-01 04:20:01,491 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,491 [DEBUG] Setting 'name' to 'MobilityData'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'homepage_url' to 'https://mobilitydata.org/'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'logo' to 'mobilitydata.svg'
+2025-07-01 04:20:01,491 [DEBUG] Setting 'description' to 'MobilityData brings together and supports mobility stakeholders to standardize and expand data formats for public transport (GTFS) and shared mobility (GBFS).'
+2025-07-01 04:20:01,491 [DEBUG] No Crunchbase entry for 'MobilityData' - specifying name instead
+2025-07-01 04:20:01,491 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/mobilitydata' for 'MobilityData'
+2025-07-01 04:20:01,491 [INFO] Processing 'NAVIS-AMS'...
+2025-07-01 04:20:01,491 [INFO] Added 'NAVIS-AMS' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,491 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/navis_ams.svg'
+2025-07-01 04:20:01,492 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,492 [DEBUG] Setting 'name' to 'NAVIS-AMS'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'homepage_url' to 'https://navis-ams.com/'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'logo' to 'navis_ams.svg'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'description' to 'Navis Automotive Systems is dedicated to developing convenient, safe, and stable driveways for drivers worldwide. With a focus on enhancing the driving experience, the company offers innovative automotive infotainment solutions, including live maps, tr...'
+2025-07-01 04:20:01,492 [DEBUG] No Crunchbase entry for 'NAVIS-AMS' - specifying name instead
+2025-07-01 04:20:01,492 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/navis-ams' for 'NAVIS-AMS'
+2025-07-01 04:20:01,492 [INFO] Processing 'Nearmap Australia Pty Ltd'...
+2025-07-01 04:20:01,492 [INFO] Added 'Nearmap Australia Pty Ltd' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,492 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/nearmap_australia_pty_ltd.svg'
+2025-07-01 04:20:01,492 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,492 [DEBUG] Setting 'name' to 'Nearmap Australia Pty Ltd'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'homepage_url' to 'https://nearmap.com/'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'logo' to 'nearmap_australia_pty_ltd.svg'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'description' to 'Nearmap is a company that provides high resolution aerial imagery, city scale 3D content, artificial intelligence data sets, and geospatial tools for businesses and governments to explore their environment easily.'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/nearmap-com'
+2025-07-01 04:20:01,492 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/nearmap-com' for 'Nearmap Australia Pty Ltd'
+2025-07-01 04:20:01,492 [INFO] Processing 'Neusoft Corporation'...
+2025-07-01 04:20:01,492 [INFO] Added 'Neusoft Corporation' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,492 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/neusoft_corporation.svg'
+2025-07-01 04:20:01,493 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,493 [DEBUG] Setting 'name' to 'Neusoft Corporation'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'homepage_url' to 'https://neusoft.com/'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'logo' to 'neusoft_corporation.svg'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'description' to 'Neusoft provides innovative information technology ��_��_��_ enabled solutions and services to meet the demands arising from social transformation, to shape new life styles for individuals and to create values for the society. Focusing on software technology, Neusoft provides industrial solutions, smart connected products, platform products and cloud and data services.
+
+Founded in 1991, Neusoft is the first listed software company in China and the first CMM5 and CMMI(V1.2) 5 certified Chinese software company. Today, Neusoft has nearly 20,000 employees worldwide, and it has established 8 regional headquarters, 10 software R&D bases, 16 software development and technical support centers, and a marketing and service network covering more than 60 cities in China. It has also set up subsidiaries outside China in the United States, Japan, Europe, the Middle East, and South America.'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/neusoft'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'twitter' to 'https://twitter.com/NeusoftAuto'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/neusoft' for 'Neusoft Corporation'
+2025-07-01 04:20:01,493 [INFO] Processing 'Niantic'...
+2025-07-01 04:20:01,493 [INFO] Added 'Niantic' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,493 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/niantic.svg'
+2025-07-01 04:20:01,493 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,493 [DEBUG] Setting 'name' to 'Niantic'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'homepage_url' to 'https://nianticlabs.com/'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'logo' to 'niantic.svg'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'description' to 'Niantic, Inc. is an American software development company based in San Francisco.'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/nianticlabs-google'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'twitter' to 'https://twitter.com/NianticLabs'
+2025-07-01 04:20:01,493 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/niantic' for 'Niantic'
+2025-07-01 04:20:01,493 [INFO] Processing 'Precisely Holdings, LLC'...
+2025-07-01 04:20:01,493 [INFO] Added 'Precisely Holdings, LLC' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,494 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/precisely_holdings_llc.svg'
+2025-07-01 04:20:01,494 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,494 [DEBUG] Setting 'name' to 'Precisely Holdings, LLC'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'homepage_url' to 'https://precisely.com/'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'logo' to 'precisely_holdings_llc.svg'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'description' to 'Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better outcomes.
+
+Was: ( renamed to Precisely on 5/13/2020 )
+
+Syncsort Incorporated provides software spanning Hadoop solutions to mainframe applications. The company offers DMX-h, a solution that collects, prepares, blends, transforms, and distributes data into Hadoop; DMX, a data integration software that helps organizations to extract, transform, and load data; and MFX, a sort technology that allows the mainframe sort, copy, and join technology, as well as offload CPU cycles to zIIP engines. It also provides Ironstream, a solution that helps organizations to get visibility and intelligence with search and analysis; and DL/2 that provides access to locked data. The company serves financial services, information services, life sciences, public, telco and media services, manufacturing and other services, and retail sectors; and Fortune 100 companies. It offers solutions through an international network of partners, resellers, and distributors.
+
+--- Merged Data:
+
+Precisely, rebranded from Syncsort Incorporated in May 2020, is a global software company specializing in Big Data, high speed sorting products, data integration data quality, data enrichment, and location intelligence offerings, for IBM Power Systems,...'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/precisely-write'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'twitter' to 'https://twitter.com/PreciselyData'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/syncsort' for 'Precisely Holdings, LLC'
+2025-07-01 04:20:01,494 [INFO] Processing 'PTV Group'...
+2025-07-01 04:20:01,494 [INFO] Added 'PTV Group' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,494 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/ptv_group.svg'
+2025-07-01 04:20:01,494 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,494 [DEBUG] Setting 'name' to 'PTV Group'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'homepage_url' to 'https://ptvgroup.com/'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'logo' to 'ptv_group.svg'
+2025-07-01 04:20:01,494 [DEBUG] Setting 'description' to 'Wissenschaftliches Know-how gehört zu unseren Stärken. Zielgerichtet und praxisorientiert bewegen wir uns in Projekten. Rund um den Globus arbeiten rund 650 Kolleginnen und Kollegen an leistungsstarken und zukunftsweisenden Lösungen. Unser Hauptsitz be...'
+2025-07-01 04:20:01,495 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/ptv-group'
+2025-07-01 04:20:01,495 [DEBUG] Setting 'twitter' to 'https://twitter.com/PTVGroup'
+2025-07-01 04:20:01,495 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/ptv' for 'PTV Group'
+2025-07-01 04:20:01,495 [INFO] Processing 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI'...
+2025-07-01 04:20:01,495 [INFO] Added 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI' to Landscape in SubCategory 'Contributor'
+2025-07-01 04:20:01,495 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/resource_advancement_for_inquisitive_kids_international_rafiki.svg'
+2025-07-01 04:20:01,495 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,495 [DEBUG] Setting 'name' to 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI'
+2025-07-01 04:20:01,495 [DEBUG] Setting 'homepage_url' to 'https://extremegeo.net/'
+2025-07-01 04:20:01,495 [DEBUG] Setting 'logo' to 'resource_advancement_for_inquisitive_kids_international_rafiki.svg'
+2025-07-01 04:20:01,495 [DEBUG] No Crunchbase entry for 'RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI' - specifying name instead
+2025-07-01 04:20:01,495 [INFO] Processing 'SafeGraph'...
+2025-07-01 04:20:01,495 [INFO] Added 'SafeGraph' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,495 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/safegraph.svg'
+2025-07-01 04:20:01,495 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,495 [DEBUG] Setting 'name' to 'SafeGraph'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'homepage_url' to 'https://safegraph.com/'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'logo' to 'safegraph.svg'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'description' to 'SafeGraph curates the highest quality and most up-to-date Places data to help organizations understand dynamically changing market trends, power informative mapping applications, and analyze consumer behavior.'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/safegraph'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'twitter' to 'https://twitter.com/SafeGraph'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/safegraph' for 'SafeGraph'
+2025-07-01 04:20:01,496 [INFO] Processing 'Sanborn'...
+2025-07-01 04:20:01,496 [INFO] Added 'Sanborn' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,496 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/sanborn.svg'
+2025-07-01 04:20:01,496 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,496 [DEBUG] Setting 'name' to 'Sanborn'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'homepage_url' to 'https://sanborn.com/'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'logo' to 'sanborn.svg'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'description' to 'Sanborn delivers geospatial solutions worldwide: Lidar Maps, Obliques, Mapping Software, Orthos and Change Detection. Contact us for more info.'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/sanborn-map-company'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'twitter' to 'https://twitter.com/SanbornMap'
+2025-07-01 04:20:01,496 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/sanborn' for 'Sanborn'
+2025-07-01 04:20:01,496 [INFO] Processing 'Sparkgeo'...
+2025-07-01 04:20:01,496 [INFO] Added 'Sparkgeo' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,496 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/sparkgeo.svg'
+2025-07-01 04:20:01,497 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,497 [DEBUG] Setting 'name' to 'Sparkgeo'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'homepage_url' to 'https://sparkgeo.com/'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'logo' to 'sparkgeo.svg'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'description' to 'Sparkgeo is a geospatial consultancy. We help do more with geospatial data through analytics, expert insights, and custom development.'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/sparkgeo'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'twitter' to 'https://twitter.com/geo_will'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/sparkgeo' for 'Sparkgeo'
+2025-07-01 04:20:01,497 [INFO] Processing 'TomTom International B.V.'...
+2025-07-01 04:20:01,497 [INFO] Added 'TomTom International B.V.' to Landscape in SubCategory 'Steering Membership'
+2025-07-01 04:20:01,497 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/tomtom_international_b_v.svg'
+2025-07-01 04:20:01,497 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,497 [DEBUG] Setting 'name' to 'TomTom International B.V.'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'homepage_url' to 'https://tomtom.com/'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'logo' to 'tomtom_international_b_v.svg'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'description' to 'TomTom NV is a Dutch multinational developer and creator of location technology and consumer electronics.'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/tomtom-international'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'twitter' to 'https://twitter.com/TomTom'
+2025-07-01 04:20:01,497 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/tomtom' for 'TomTom International B.V.'
+2025-07-01 04:20:01,497 [INFO] Processing 'Tripadvisor LLC'...
+2025-07-01 04:20:01,497 [INFO] Added 'Tripadvisor LLC' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,498 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/tripadvisor_llc.svg'
+2025-07-01 04:20:01,498 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,498 [DEBUG] Setting 'name' to 'Tripadvisor LLC'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'homepage_url' to 'https://tripadvisor.com/'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'logo' to 'tripadvisor_llc.svg'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'description' to 'Tripadvisor is the world's largest travel guidance platform, offering over a billion reviews and recommendations for hotels, attractions, restaurants, and more. Travelers rely on Tripadvisor to plan their trips, find savings on accommodations, book exp...'
+2025-07-01 04:20:01,498 [DEBUG] No Crunchbase entry for 'Tripadvisor LLC' - specifying name instead
+2025-07-01 04:20:01,498 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/tripadvisor' for 'Tripadvisor LLC'
+2025-07-01 04:20:01,498 [INFO] Processing 'Uber Technologies Inc.'...
+2025-07-01 04:20:01,498 [INFO] Added 'Uber Technologies Inc.' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,498 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/uber_technologies_inc.svg'
+2025-07-01 04:20:01,498 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,498 [DEBUG] Setting 'name' to 'Uber Technologies Inc.'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'homepage_url' to 'https://uber.com/'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'logo' to 'uber_technologies_inc.svg'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'description' to 'Uber Technologies, Inc. provides a smartphone application that connects drivers with people who need a ride. The company's application enables users to arrange and schedule transportation and/or logistics services with third party providers. Uber Technologies serves customers in North, Central, and South Americas, as well as Europe, the Middle East, Africa, and the Asia Pacific. The company has a strategic partnership with Alexandria Real Estate Equities, Inc. Uber Technologies, Inc. was formerly known as UberCab Inc. and changed its name to Uber Technologies, Inc. in October 2010. The company was founded in 2009 and is based in San Francisco, California.'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'crunchbase' to 'https://www.crunchbase.com/organization/uber'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'twitter' to 'https://twitter.com/Uber'
+2025-07-01 04:20:01,498 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/uber.com' for 'Uber Technologies Inc.'
+2025-07-01 04:20:01,498 [INFO] Processing 'Wherobots, Inc'...
+2025-07-01 04:20:01,498 [INFO] Added 'Wherobots, Inc' to Landscape in SubCategory 'Contributor Membership'
+2025-07-01 04:20:01,499 [DEBUG] Saving hosted_logos '../landscape/hosted_logos/wherobots_inc.svg'
+2025-07-01 04:20:01,499 [DEBUG] Processing into landscape item attributes
+2025-07-01 04:20:01,499 [DEBUG] Setting 'name' to 'Wherobots, Inc'
+2025-07-01 04:20:01,499 [DEBUG] Setting 'homepage_url' to 'https://wherobots.com/'
+2025-07-01 04:20:01,499 [DEBUG] Setting 'logo' to 'wherobots_inc.svg'
+2025-07-01 04:20:01,499 [DEBUG] Setting 'description' to 'Wherobots is a spatial data analytics and AI platform that offers creative, scalable, and enterprise-grade solutions for managing, processing, and analyzing geospatial data at scale. They specialize in linking datasets based on geographic locations, fi...'
+2025-07-01 04:20:01,499 [DEBUG] No Crunchbase entry for 'Wherobots, Inc' - specifying name instead
+2025-07-01 04:20:01,499 [DEBUG] Setting 'extra.linkedin_url' to 'https://www.linkedin.com/company/wherobots' for 'Wherobots, Inc'
+2025-07-01 04:20:01,501 [DEBUG] Successfully opened landscape file '../landscape/landscape.yml'
+2025-07-01 04:20:01,557 [DEBUG] Successfully parsed yaml output in landscape file '../landscape/landscape.yml'
+2025-07-01 04:20:01,557 [DEBUG] Landscape Category 'Overture Maps Members' found
+2025-07-01 04:20:01,597 [INFO] Successfully processed 37 members and skipped 0 members
+2025-07-01 04:20:01,597 [INFO] This took 0:00:06.152595 seconds
