@@ -656,3 +656,9 @@ landscape:
             organization:
               name: Wherobots, Inc
               linkedin: https://www.linkedin.com/company/wherobots
+          - item:
+            name: Zephr.xyz
+            homepage_url: https://zephr.xyz/
+            logo: zephr.svg
+            organization:
+              name: Zephr.xyz
