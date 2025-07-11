@@ -543,6 +543,32 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/niantic
           - item:
+            name: OpenTravel Alliance
+            description: >-
+              The OpenTravel Alliance is passionate about solving the problems inherent with connecting multiple systems within the complex travel distribution
+              arena.
+
+
+              OpenTravel’s mission is to engineer specifications to ensure traveler and supplier information flow smoothly throughout travel, tourism and
+              hospitality. OpenTravel creates, expands and drives adoption of open specifications, including but not limited to the use of XML, for the
+              electronic exchange of business information among all sectors of the travel industry.
+
+
+              OpenTravel is comprised of companies representing airlines, car rental firms, hotels, cruise lines, railways, leisure suppliers, service
+              providers, tour operators, travel agencies, solutions providers, technology companies and distributors. Tens of thousands of OpenTravel message
+              structures are in use, carrying tens of millions of messages between trading partners every day.
+
+
+              OpenTravel is a not-for-profit trade association, founded in 1999 by travel companies, with a primary focus on the creation of electronic message
+              structures to facilitate communication between the disparate systems in the global travel industry. Our members actually do the work of
+              identifying what messages are needed, prioritizing the work and creating the messages
+            homepage_url: https://opentravel.org/
+            logo: opentravel_alliance.svg
+            twitter: https://twitter.com/OpenTravel
+            crunchbase: https://www.crunchbase.com/organization/open-travel
+            extra:
+              linkedin_url: https://www.linkedin.com/company/opentravel
+          - item:
             name: Precisely Holdings, LLC
             description: >-
               Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better
