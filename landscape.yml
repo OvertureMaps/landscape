@@ -494,18 +494,6 @@ landscape:
               name: MobilityData
               linkedin: https://www.linkedin.com/company/mobilitydata
           - item:
-            name: NAVIS-AMS
-            description: >-
-              Navis Automotive Systems is dedicated to developing convenient, safe, and stable driveways for drivers worldwide. With a focus on enhancing the
-              driving experience, the company offers innovative automotive infotainment solutions, including live maps, tr...
-            homepage_url: https://navis-ams.com/
-            logo: navis_ams.svg
-            extra:
-              linkedin_url: https://www.linkedin.com/company/navis-ams
-            organization:
-              name: NAVIS-AMS
-              linkedin: https://www.linkedin.com/company/navis-ams
-          - item:
             name: Nearmap Australia Pty Ltd
             description: >-
               Nearmap is a company that provides high resolution aerial imagery, city scale 3D content, artificial intelligence data sets, and geospatial tools
