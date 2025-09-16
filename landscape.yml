@@ -647,8 +647,8 @@ landscape:
           - item:
             name: Wherobots, Inc
             description: >-
-              Wherobots is a spatial data analytics and AI platform that offers creative, scalable, and enterprise-grade solutions for managing, processing, and
-              analyzing geospatial data at scale. They specialize in linking datasets based on geographic locations, fi...
+              Wherobots specializes in providing cloud-native spatial ETL, analytics, and GeoAI solutions, enabling real-time data engineering and large-scale
+              geospatial data processing to deliver insights and answers at a planetary scale.
             homepage_url: https://wherobots.com/
             logo: wherobots_inc.svg
             extra:
