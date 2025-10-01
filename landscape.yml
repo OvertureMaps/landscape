@@ -484,8 +484,8 @@ landscape:
           - item:
             name: MobilityData
             description: >-
-              MobilityData brings together and supports mobility stakeholders to standardize and expand data formats for public transport (GTFS) and shared
-              mobility (GBFS).
+              MobilityData is a non-profit organization that brings together and supports mobility stakeholders to standardize and expand data formats for
+              public transport and shared mobility, ensuring reliable and intuitive travel directions for users.
             homepage_url: https://mobilitydata.org/
             logo: mobilitydata.svg
             extra:
