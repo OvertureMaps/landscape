@@ -470,18 +470,6 @@ landscape:
               name: krick.com GmbH + Co. KG
               linkedin: https://www.linkedin.com/company/krickcom
           - item:
-            name: Maxar Technologies Inc
-            description: >-
-              Maxar Technologies is a leading provider of integrated space infrastructure and Earth intelligence capabilities. They offer innovative solutions
-              for commercial and government missions, including spacecraft, components, robotics, geospatial intelligence...
-            homepage_url: https://maxar.com/
-            logo: maxar_technologies_inc.svg
-            extra:
-              linkedin_url: https://www.linkedin.com/company/maxar-technologies-ltd
-            organization:
-              name: Maxar Technologies Inc
-              linkedin: https://www.linkedin.com/company/maxar-technologies-ltd
-          - item:
             name: MobilityData
             description: >-
               MobilityData is a non-profit organization that brings together and supports mobility stakeholders to standardize and expand data formats for
@@ -644,6 +632,18 @@ landscape:
             organization:
               name: Tripadvisor LLC
               linkedin: https://www.linkedin.com/company/tripadvisor
+          - item:
+            name: Vantor
+            description: >-
+              Vantor.com is a company that specializes in web development and domain registration. They offer assistance in finding the perfect domain for your
+              project and provide development opportunities for customers. If you already have a web development team, t...
+            homepage_url: https://vantor.com/
+            logo: vantor.svg
+            extra:
+              linkedin_url: https://www.linkedin.com/company/maxar-technologies-ltd
+            organization:
+              name: Vantor
+              linkedin: https://www.linkedin.com/company/maxar-technologies-ltd
           - item:
             name: Wherobots, Inc
             description: >-
