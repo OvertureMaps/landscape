@@ -143,14 +143,66 @@ landscape:
               name: CoreLogic Solutions, LLC.
               linkedin: https://www.linkedin.com/company/corelogic
           - item:
-            name: Crunchy Data Solutions, Inc.
-            description: Deploy enterprise-ready PostgreSQL on your choice of platform and infrastructure with commercial support from Crunchy Data.
-            homepage_url: https://crunchydata.com/
-            logo: crunchy_data_solutions_inc.svg
-            twitter: https://twitter.com/crunchydata
-            crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
+            name: Cyient Limited
+            description: >-
+              About us
+
+              Cyient (Estd: 1991, NSE: CYIENT) provides engineering, manufacturing, geospatial, network and operations management services to global industry
+              leaders. We leverage the power of digital technology and advanced analytics capabilities, along with our domain knowledge and technical expertise,
+              to help our clients solve complex business problems. As a Design-Build-Maintain partner that takes solution ownership across the value chain, we
+              empower our clients to focus on their core, innovate, and stay ahead of the curve.
+               
+              Relationships lie at the heart of how we work. We partner with organizations in ways that best suit their culture and requirements. With nearly
+              14,000 employees in 21 countries, we combine global delivery with proximity to our clients, functioning as their extended team. Our industry focus
+              spans aerospace and defense, medical, telecommunications, rail transportation, semiconductor, utilities, industrial, energy and natural resources.
+
+
+              Recent updateSee all See all recent updates
+
+              Image accompanying recent update
+
+              Farnborough International Airshow 2018
+
+
+              cyient.com
+
+
+              7 Likes
+
+              Company details
+
+              Website
+
+              http://www.cyient.com/
+
+              Headquarters
+
+              Hyderabad, Andhra Pradesh
+
+
+              Year founded
+
+              1991
+
+
+              Company type
+
+              Public Company
+
+
+              Company size
+
+              10,001+ employees
+
+              Specialties
+
+              Engineering Services, Design Led Manufacturing, Networks and Operations, Data Analytics, and Geospatial
+            homepage_url: https://cyient.com/
+            logo: cyient_limited.svg
+            twitter: https://twitter.com/Cyient
+            crunchbase: https://www.crunchbase.com/organization/cyient
             extra:
-              linkedin_url: https://www.linkedin.com/company/crunchy-data-solutions-inc-
+              linkedin_url: https://www.linkedin.com/company/cyient
           - item:
             name: Development Seed
             description: >-
