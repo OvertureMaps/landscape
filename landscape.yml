@@ -655,15 +655,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/safegraph
           - item:
-            name: Sanborn
-            description: 'Sanborn delivers geospatial solutions worldwide: Lidar Maps, Obliques, Mapping Software, Orthos and Change Detection. Contact us for more info.'
-            homepage_url: https://sanborn.com/
-            logo: sanborn.svg
-            twitter: https://twitter.com/SanbornMap
-            crunchbase: https://www.crunchbase.com/organization/sanborn-map-company
-            extra:
-              linkedin_url: https://www.linkedin.com/company/sanborn
-          - item:
             name: Sparkgeo
             description: Sparkgeo is a geospatial consultancy. We help do more with geospatial data through analytics, expert insights, and custom development.
             homepage_url: https://sparkgeo.com/
