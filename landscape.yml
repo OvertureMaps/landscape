@@ -235,6 +235,15 @@ landscape:
             organization:
               name: Fresno County Department of Public Works & Planning
           - item:
+            name: GEM Foundation
+            description: >-
+              GEM Foundation focuses on developing transparent tools and resources for earthquake hazard and risk assessment to enhance global resilience and
+              awareness regarding seismic risks.
+            homepage_url: https://globalquakemodel.org/
+            logo: gem_foundation.svg
+            organization:
+              name: GEM Foundation
+          - item:
             name: GlobalLogic Inc.
             description: >-
               1420 Spring Hill Road, Suite 155
