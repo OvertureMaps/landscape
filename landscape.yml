@@ -234,6 +234,13 @@ landscape:
             organization:
               name: Fresno County Department of Public Works & Planning
           - item:
+            name: Fused
+            homepage_url: https://fused.io/
+            logo: fused.svg
+            description: Fused enables real-time serverless operations with Python UDFs, turning code into live HTTP endpoints for scalable data processing.
+            organization:
+              name: Fused
+          - item:
             name: GEM Foundation
             homepage_url: https://globalquakemodel.org/
             logo: gem_foundation.svg
