@@ -45,6 +45,13 @@ landscape:
         name: General
         items:
           - item:
+            name: BrightQuery
+            homepage_url: https://brightquery.com/
+            logo: brightquery.svg
+            description: BrightQuery provides trusted data solutions for over 200 million companies worldwide, offering financials, headcount, and firmographics for diverse industry applications.
+            organization:
+              name: BrightQuery
+          - item:
             name: Environmental Systems Research Institute, Inc. (ESRI)
             homepage_url: https://esri.com/
             logo: environmental_systems_research_institute_inc.svg
@@ -547,15 +554,6 @@ landscape:
             organization:
               name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
           - item:
-            name: SafeGraph
-            homepage_url: https://safegraph.com/
-            logo: safegraph.svg
-            description: SafeGraph curates the highest quality and most up-to-date Places data to help organizations understand dynamically changing market trends, power informative mapping applications, and analyze consumer behavior.
-            crunchbase: https://www.crunchbase.com/organization/safegraph
-            twitter: https://twitter.com/SafeGraph
-            extra:
-              linkedin_url: https://www.linkedin.com/company/safegraph
-          - item:
             name: Sparkgeo
             homepage_url: https://sparkgeo.com/
             logo: sparkgeo.svg
@@ -564,6 +562,13 @@ landscape:
             twitter: https://twitter.com/geo_will
             extra:
               linkedin_url: https://www.linkedin.com/company/sparkgeo
+          - item:
+            name: Staer
+            homepage_url: https://staer.ai/
+            logo: staer.svg
+            description: Staer specializes in developing autonomous spatial intelligence solutions for mobile robot fleets, enabling them to create and continuously update semantic 3D maps, coordinate across various vendors, and enhance their learning capabilities over time.
+            organization:
+              name: Staer
           - item:
             name: Tripadvisor LLC
             homepage_url: https://tripadvisor.com/
