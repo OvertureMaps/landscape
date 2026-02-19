@@ -33,9 +33,9 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/microsoft
           - item:
-            name: TomTom International B.V.
+            name: TomTom international BV
             homepage_url: https://tomtom.com/
-            logo: tomtom_international_b_v.svg
+            logo: tomtom_international_bv.svg
             description: TomTom NV is a Dutch multinational developer and creator of location technology and consumer electronics.
             crunchbase: https://www.crunchbase.com/organization/tomtom-international
             twitter: https://twitter.com/TomTom
