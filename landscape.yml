@@ -45,6 +45,13 @@ landscape:
         name: General
         items:
           - item:
+            name: BrightQuery
+            homepage_url: https://brightquery.com/
+            logo: brightquery.svg
+            description: BrightQuery provides trusted data solutions for over 200 million companies worldwide, offering financials, headcount, and firmographics for diverse industry applications.
+            organization:
+              name: BrightQuery
+          - item:
             name: Environmental Systems Research Institute, Inc. (ESRI)
             homepage_url: https://esri.com/
             logo: environmental_systems_research_institute_inc.svg
