@@ -589,6 +589,15 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/uber.com
           - item:
+            name: UC Santa Cruz
+            homepage_url: https://ucsc.edu/
+            logo: uc_santa_cruz.svg
+            description: The University of California, Santa Cruz is a public research university in Santa Cruz, California.
+            crunchbase: https://www.crunchbase.com/organization/university-of-california-santa-cruz
+            twitter: https://twitter.com/ucsc
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ucsc
+          - item:
             name: Vantor
             homepage_url: https://vantor.com/
             logo: vantor.svg
