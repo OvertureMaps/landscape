@@ -7,7 +7,7 @@ landscape:
         items:
           - item:
             name: Amazon Web Services, Inc.
-            homepage_url: https://amazon.com/
+            homepage_url: https://aws.amazon.com/
             logo: amazon_web_services_inc.svg
             description: Amazon.com, Inc. is an online retailer, offering new, refurbished and used products including books, DVDs, CDs, MP3 downloads, software, video games, electronics, furniture, apparel, jewelry, and toys. The company also manufactures consumer electronics (notably the Amazon Kindle and the Kindle Fire) and provides cloud computing services. Amazon is a publicly owned company and is based out of Seattle, WA.
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
@@ -553,6 +553,15 @@ landscape:
             logo: resource_advancement_for_inquisitive_kids_international_rafiki.svg
             organization:
               name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
+          - item:
+            name: SafeGraph
+            homepage_url: https://safegraph.com/
+            logo: safegraph.svg
+            description: SafeGraph curates the highest quality and most up-to-date Places data to help organizations understand dynamically changing market trends, power informative mapping applications, and analyze consumer behavior.
+            crunchbase: https://www.crunchbase.com/organization/safegraph
+            twitter: https://twitter.com/SafeGraph
+            extra:
+              linkedin_url: https://www.linkedin.com/company/safegraph
           - item:
             name: Sparkgeo
             homepage_url: https://sparkgeo.com/
