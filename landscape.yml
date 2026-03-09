@@ -548,6 +548,13 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ptv
           - item:
+            name: Regrid
+            homepage_url: https://regrid.com/
+            logo: regrid.svg
+            description: Regrid provides comprehensive parcel data and geographic information across the U.S. and Canada, enabling users to make informed decisions through access to government-sourced land data and a complete parcel mapping application.
+            organization:
+              name: Regrid
+          - item:
             name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
             homepage_url: https://extremegeo.net/
             logo: resource_advancement_for_inquisitive_kids_international_rafiki.svg
