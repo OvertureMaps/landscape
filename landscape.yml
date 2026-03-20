@@ -15,15 +15,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/amazon
           - item:
-            name: Meta Platforms, Inc.
-            homepage_url: https://meta.com/
-            logo: meta_platforms_inc.svg
-            description: Founded in 2004 and headquartered in Menlo Park, California, Facebook is an American online social media and social networking service company that provides various products to connect and share.
-            crunchbase: https://www.crunchbase.com/organization/facebook
-            twitter: https://twitter.com/Meta
-            extra:
-              linkedin_url: https://www.linkedin.com/company/facebook
-          - item:
             name: Microsoft Corporation
             homepage_url: https://microsoft.com/
             logo: microsoft_corporation.svg
@@ -60,6 +51,15 @@ landscape:
             twitter: https://twitter.com/Esri
             extra:
               linkedin_url: https://www.linkedin.com/company/esri
+          - item:
+            name: Meta Platforms, Inc.
+            homepage_url: https://meta.com/
+            logo: meta_platforms_inc.svg
+            description: Founded in 2004 and headquartered in Menlo Park, California, Facebook is an American online social media and social networking service company that provides various products to connect and share.
+            crunchbase: https://www.crunchbase.com/organization/facebook
+            twitter: https://twitter.com/Meta
+            extra:
+              linkedin_url: https://www.linkedin.com/company/facebook
       - subcategory:
         name: Contributor
         items:
@@ -524,16 +524,7 @@ landscape:
             name: Precisely Holdings, LLC
             homepage_url: https://precisely.com/
             logo: precisely_holdings_llc.svg
-            description: |-
-              Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better outcomes.
-
-              Was: ( renamed to Precisely on 5/13/2020 )
-
-              Syncsort Incorporated provides software spanning Hadoop solutions to mainframe applications. The company offers DMX-h, a solution that collects, prepares, blends, transforms, and distributes data into Hadoop; DMX, a data integration software that helps organizations to extract, transform, and load data; and MFX, a sort technology that allows the mainframe sort, copy, and join technology, as well as offload CPU cycles to zIIP engines. It also provides Ironstream, a solution that helps organizations to get visibility and intelligence with search and analysis; and DL/2 that provides access to locked data. The company serves financial services, information services, life sciences, public, telco and media services, manufacturing and other services, and retail sectors; and Fortune 100 companies. It offers solutions through an international network of partners, resellers, and distributors.
-
-              --- Merged Data:
-
-              Precisely, rebranded from Syncsort Incorporated in May 2020, is a global software company specializing in Big Data, high speed sorting products, data integration data quality, data enrichment, and location intelligence offerings, for IBM Power Systems,...
+            description: Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better outcomes.
             crunchbase: https://www.crunchbase.com/organization/precisely-write
             twitter: https://twitter.com/PreciselyData
             extra:
