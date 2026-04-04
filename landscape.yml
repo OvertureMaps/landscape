@@ -530,15 +530,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/syncsort
           - item:
-            name: PTV Group
-            homepage_url: https://ptvgroup.com/
-            logo: ptv_group.svg
-            description: Wissenschaftliches Know-how gehört zu unseren Stärken. Zielgerichtet und praxisorientiert bewegen wir uns in Projekten. Rund um den Globus arbeiten rund 650 Kolleginnen und Kollegen an leistungsstarken und zukunftsweisenden Lösungen. Unser Hauptsitz be...
-            crunchbase: https://www.crunchbase.com/organization/ptv-group
-            twitter: https://twitter.com/PTVGroup
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ptv
-          - item:
             name: Regrid
             homepage_url: https://regrid.com/
             logo: regrid.svg
@@ -604,16 +595,6 @@ landscape:
             twitter: https://twitter.com/ucsc
             extra:
               linkedin_url: https://www.linkedin.com/company/ucsc
-          - item:
-            name: Vantor
-            homepage_url: https://vantor.com/
-            logo: vantor.svg
-            description: Vantor.com is a company that specializes in web development and domain registration. They offer assistance in finding the perfect domain for your project and provide development opportunities for customers. If you already have a web development team, t...
-            organization:
-              name: Vantor
-              linkedin: https://www.linkedin.com/company/maxar-technologies-ltd
-            extra:
-              linkedin_url: https://www.linkedin.com/company/maxar-technologies-ltd
           - item:
             name: Wherobots, Inc
             homepage_url: https://wherobots.com/
