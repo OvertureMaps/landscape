@@ -22,7 +22,7 @@ jobs:
         uses: step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d # v2.16.1
         with:
           egress-policy: audit
-      - uses: jmertic/lfx-landscape-tools@a6d97ddd4871979055662697cd84cfb32b1bcc98 # main
+      - uses: jmertic/lfx-landscape-tools@29c3da5bc185f8b7118c50607bf4d58b8b73c0e4 # 20260331
         with:
           project_processing: skip
         env:
