@@ -1,8 +1,5 @@
 name: Preview
 
-permissions:
-  pull-requests: write
-
 on:
   pull_request:
     branches:
@@ -14,9 +11,18 @@ on:
     types:
       - opened
 
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   comment:
+    name: Post Preview Comment
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write # Required to post a preview link comment on pull requests
     steps:
       - uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
         env:
