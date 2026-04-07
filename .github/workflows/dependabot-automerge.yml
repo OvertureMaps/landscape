@@ -4,30 +4,38 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
-permissions:
-  contents: write
-  pull-requests: write
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   dependabot:
+    name: Dependabot Auto-merge
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    permissions:
+      contents: write # Required to merge Dependabot PRs
+      pull-requests: write # Required to approve Dependabot PRs
 
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        
+        with:
+          persist-credentials: false
+
       - name: Approve PR
         run: |
-          gh pr review --approve "${{ github.event.pull_request.number }}"
+          gh pr review --approve "$PR_NUMBER"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
 
       - name: Enable auto-merge
         run: |
           gh pr merge \
             --squash \
             --auto \
-            "${{ github.event.pull_request.number }}"
+            "$PR_NUMBER"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
