@@ -5,6 +5,8 @@ on:
   schedule:
   - cron: "0 4 * * *"
 
+permissions: {}
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -14,7 +16,7 @@ jobs:
     name: Build Landscape
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Required to commit and push the built landscape data
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d # v2.16.1
