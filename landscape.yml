@@ -224,16 +224,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/development-seed
           - item:
-            name: E Foundation
-            homepage_url: https://e.foundation/
-            logo: e_foundation.svg
-            description: e Foundation is a company that provides deGoogled smartphone operating systems and online services. Their flagship product, /e/OS, offers a privacy-enabled smartphone operating system that prioritizes user data privacy and security. Founded by Gaël Duv...
-            organization:
-              name: E Foundation
-              linkedin: https://www.linkedin.com/company/eelo.io
-            extra:
-              linkedin_url: https://www.linkedin.com/company/eelo.io
-          - item:
             name: Fresno County Department of Public Works & Planning
             homepage_url: https://fresnocountyca.gov/
             logo: fresno_county_department_of_public_works_planning.svg
@@ -484,18 +474,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/nearmap-com
           - item:
-            name: Neusoft Corporation
-            homepage_url: https://neusoft.com/
-            logo: neusoft_corporation.svg
-            description: |-
-              Neusoft provides innovative information technology ��_��_��_ enabled solutions and services to meet the demands arising from social transformation, to shape new life styles for individuals and to create values for the society. Focusing on software technology, Neusoft provides industrial solutions, smart connected products, platform products and cloud and data services.
-
-              Founded in 1991, Neusoft is the first listed software company in China and the first CMM5 and CMMI(V1.2) 5 certified Chinese software company. Today, Neusoft has nearly 20,000 employees worldwide, and it has established 8 regional headquarters, 10 software R&D bases, 16 software development and technical support centers, and a marketing and service network covering more than 60 cities in China. It has also set up subsidiaries outside China in the United States, Japan, Europe, the Middle East, and South America.
-            crunchbase: https://www.crunchbase.com/organization/neusoft
-            twitter: https://twitter.com/NeusoftAuto
-            extra:
-              linkedin_url: https://www.linkedin.com/company/neusoft
-          - item:
             name: Niantic
             homepage_url: https://nianticlabs.com/
             logo: niantic.svg
@@ -536,12 +514,6 @@ landscape:
             description: Regrid provides comprehensive parcel data and geographic information across the U.S. and Canada, enabling users to make informed decisions through access to government-sourced land data and a complete parcel mapping application.
             organization:
               name: Regrid
-          - item:
-            name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
-            homepage_url: https://extremegeo.net/
-            logo: resource_advancement_for_inquisitive_kids_international_rafiki.svg
-            organization:
-              name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
           - item:
             name: SafeGraph
             homepage_url: https://safegraph.com/
