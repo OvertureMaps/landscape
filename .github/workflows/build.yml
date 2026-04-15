@@ -16,7 +16,8 @@ jobs:
     name: Build Landscape
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Required to commit and push the built landscape data
+      contents: write
+      pull-requests: write
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
