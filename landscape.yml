@@ -596,6 +596,13 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ucsc
           - item:
+            name: voygr
+            homepage_url: https://voygr.tech/
+            logo: voygr.svg
+            description: High-fidelity location data layer for analytics, agents & apps. From address & contact details to hours, menus, prices. Maps tag places — VOYGR understands.
+            organization:
+              name: voygr
+          - item:
             name: Wherobots, Inc
             homepage_url: https://wherobots.com/
             logo: wherobots_inc.svg
