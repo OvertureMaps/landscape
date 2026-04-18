@@ -459,7 +459,11 @@ landscape:
             name: krick.com GmbH + Co. KG
             homepage_url: https://krick.com/
             logo: krick_com_gmbh_co.svg
-            description: Der Robert Krick Verlag verlegt seit über 65 Jahren Verzeichnismedien wie Das Telefonbuch und Das Örtliche, und bietet lokale Informationsdienste für Print, Online und Mobil. Die iWelt AG bietet maßgeschneiderte Serviceleistungen in den Bereichen Provi...
+            description: |-
+              We bring customers to our clients.
+              To do this, we connect people and businesses—across all channels!
+              The Krick family of companies combines marketing, sales, and IT expertise. We develop high-performance websites, provide secure and flexible IT solutions, and support you on your path to greater visibility with over 150 online marketing experts.
+              We have continuously evolved from a traditional publishing house, recognized the opportunities of digitalization early on, and today combine technical know-how with measurable marketing success.
             organization:
               name: krick.com GmbH + Co. KG
               linkedin: https://www.linkedin.com/company/krickcom
@@ -595,6 +599,13 @@ landscape:
             twitter: https://twitter.com/ucsc
             extra:
               linkedin_url: https://www.linkedin.com/company/ucsc
+          - item:
+            name: voygr
+            homepage_url: https://voygr.tech/
+            logo: voygr.svg
+            description: High-fidelity location data layer for analytics, agents & apps. From address & contact details to hours, menus, prices. Maps tag places — VOYGR understands.
+            organization:
+              name: voygr
           - item:
             name: Wherobots, Inc
             homepage_url: https://wherobots.com/
