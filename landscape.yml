@@ -40,8 +40,6 @@ landscape:
             homepage_url: https://brightquery.com/
             logo: brightquery.svg
             description: BrightQuery provides trusted data solutions for over 200 million companies worldwide, offering financials, headcount, and firmographics for diverse industry applications.
-            organization:
-              name: BrightQuery
           - item:
             name: Environmental Systems Research Institute, Inc. (ESRI)
             homepage_url: https://esri.com/
@@ -76,73 +74,13 @@ landscape:
             homepage_url: https://addressforall.org/
             logo: addressforall_institute.svg
             description: The AddressForAll Institute is a non profit NGO that maintains an Open Address Data Base, having social impact through technology.
-            organization:
-              name: AddressForAll Institute
-              linkedin: https://www.linkedin.com/company/addressforall-institute
             extra:
               linkedin_url: https://www.linkedin.com/company/addressforall-institute
           - item:
             name: Camptocamp
             homepage_url: https://camptocamp.com/
             logo: camptocamp.svg
-            description: |-
-              Camptocamp is a service-oriented editor and integrator of Open Source software applications for Geospatial Solutions, Business Solutions, and Infrastructure Solutions.
-
-
-
-              Camptocamp SA, Lausanne
-
-              Address:
-
-              PSE-A 
-
-              Parc Scientifique EPFL
-
-              1015 Lausanne
-
-              Switzerland
-
-              +41 21 619 10 10
-
-
-
-              Camptocamp France SAS, Chamb��_ry
-
-              Address:
-
-              Savoie Technolac
-
-              BP 352
-
-              48 avenue du Lac du Bourget
-
-              73372 Le Bourget du Lac, Cedex
-
-              France
-
-              E-mail:	info@camptocamp.com
-
-              Phone:	+33 4 79 44 44 94
-
-
-
-              Camptocamp Austria, Vienna
-
-              Address:
-
-              Ferdinand Gassauer
-
-              Am Heumarkt,13/II/2
-
-              1031  Wien
-
-              ��__sterreich
-
-              E-mail:                  
-
-              info@camptocamp.com
-
-              Phone:	+43 1 712 21 94 0
+            description: "Camptocamp is a service-oriented editor and integrator of Open Source software applications for Geospatial Solutions, Business Solutions, and Infrastructure Solutions.\n\n\n\nCamptocamp SA, Lausanne\n\nAddress:\n\nPSE-A \n\nParc Scientifique EPFL\n\n1015 Lausanne\n\nSwitzerland\n\n+41 21 619 10 10\n\n\n\nCamptocamp France SAS, Chamb��_ry\n\nAddress:\n\nSavoie Technolac\n\nBP 352\n\n48 avenue du Lac du Bourget\n\n73372 Le Bourget du Lac, Cedex\n\nFrance\n\nE-mail:\tinfo@camptocamp.com\n\nPhone:\t+33 4 79 44 44 94\n\n\n\nCamptocamp Austria, Vienna\n\nAddress:\n\nFerdinand Gassauer\n\nAm Heumarkt,13/II/2\n\n1031  Wien\n\n��__sterreich\n\nE-mail:                  \n\ninfo@camptocamp.com\n\nPhone:\t+43 1 712 21 94 0"
             crunchbase: https://www.crunchbase.com/organization/camptocamp
             twitter: https://twitter.com/camptocamp
             extra:
@@ -151,21 +89,12 @@ landscape:
             name: CARIAD SE
             homepage_url: https://cariad.technology/
             logo: cariad_se.svg
-            description: |-
-              CARIAD is an automotive software company in the Volkswagen Group that consolidates and further expands the Group's software competencies to transform automotive mobility. The company develops the leading tech stack for the automotive industry with the mission to make the automotive experience safer, more sustainable, and more comfortable in a new way – for everyone, everywhere. 
-              CARIAD builds a uniform software platform for all brands of the Volkswagen Group, which includes a unified and scalable architecture, an operating system, and an automotive cloud. 
-              We transform cars into software-defined vehicles that seamlessly integrate the automotive experience into our digital life, turning the Volkswagen Group into a software-driven mobility provider. CARIAD’s headquarters is located in Germany and co-operates with international Volkswagen Group teams in the US and China. 
-              Visit: https://cariad.technology
-            organization:
-              name: CARIAD SE
+            description: "CARIAD is an automotive software company in the Volkswagen Group that consolidates and further expands the Group's software competencies to transform automotive mobility. The company develops the leading tech stack for the automotive industry with the mission to make the automotive experience safer, more sustainable, and more comfortable in a new way – for everyone, everywhere. \nCARIAD builds a uniform software platform for all brands of the Volkswagen Group, which includes a unified and scalable architecture, an operating system, and an automotive cloud. \nWe transform cars into software-defined vehicles that seamlessly integrate the automotive experience into our digital life, turning the Volkswagen Group into a software-driven mobility provider. CARIAD’s headquarters is located in Germany and co-operates with international Volkswagen Group teams in the US and China. \nVisit: https://cariad.technology"
           - item:
             name: con terra
             homepage_url: https://conterra.de/
             logo: con_terra.svg
             description: con terra specializes in providing advanced Geographic Information System (GIS) solutions that integrate spatial and non-spatial data, enabling clients to visualize and analyze complex datasets effectively.
-            organization:
-              name: con terra
-              linkedin: https://www.linkedin.com/company/con-terra-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/con-terra-gmbh
           - item:
@@ -173,44 +102,13 @@ landscape:
             homepage_url: https://corelogic.com/
             logo: corelogic_solutions_llc.svg
             description: CoreLogic® provides integrated property information, analytics, and data-enabled services that empower various stakeholders in the real estate ecosystem, including agents, lenders, and insurers, by leveraging a vast database to deliver predictive decis...
-            organization:
-              name: CoreLogic Solutions, LLC.
-              linkedin: https://www.linkedin.com/company/corelogic
             extra:
               linkedin_url: https://www.linkedin.com/company/corelogic
           - item:
             name: Cyient Limited
             homepage_url: https://cyient.com/
             logo: cyient_limited.svg
-            description: |-
-              About us
-              Cyient (Estd: 1991, NSE: CYIENT) provides engineering, manufacturing, geospatial, network and operations management services to global industry leaders. We leverage the power of digital technology and advanced analytics capabilities, along with our domain knowledge and technical expertise, to help our clients solve complex business problems. As a Design-Build-Maintain partner that takes solution ownership across the value chain, we empower our clients to focus on their core, innovate, and stay ahead of the curve.
-               
-              Relationships lie at the heart of how we work. We partner with organizations in ways that best suit their culture and requirements. With nearly 14,000 employees in 21 countries, we combine global delivery with proximity to our clients, functioning as their extended team. Our industry focus spans aerospace and defense, medical, telecommunications, rail transportation, semiconductor, utilities, industrial, energy and natural resources.
-
-              Recent updateSee all See all recent updates
-              Image accompanying recent update
-              Farnborough International Airshow 2018
-
-              cyient.com
-
-              7 Likes
-              Company details
-              Website
-              http://www.cyient.com/
-              Headquarters
-              Hyderabad, Andhra Pradesh
-
-              Year founded
-              1991
-
-              Company type
-              Public Company
-
-              Company size
-              10,001+ employees
-              Specialties
-              Engineering Services, Design Led Manufacturing, Networks and Operations, Data Analytics, and Geospatial
+            description: "About us\nCyient (Estd: 1991, NSE: CYIENT) provides engineering, manufacturing, geospatial, network and operations management services to global industry leaders. We leverage the power of digital technology and advanced analytics capabilities, along with our domain knowledge and technical expertise, to help our clients solve complex business problems. As a Design-Build-Maintain partner that takes solution ownership across the value chain, we empower our clients to focus on their core, innovate, and stay ahead of the curve.\n \nRelationships lie at the heart of how we work. We partner with organizations in ways that best suit their culture and requirements. With nearly 14,000 employees in 21 countries, we combine global delivery with proximity to our clients, functioning as their extended team. Our industry focus spans aerospace and defense, medical, telecommunications, rail transportation, semiconductor, utilities, industrial, energy and natural resources.\n\nRecent updateSee all See all recent updates\nImage accompanying recent update\nFarnborough International Airshow 2018\n\ncyient.com\n\n7 Likes\nCompany details\nWebsite\nhttp://www.cyient.com/\nHeadquarters\nHyderabad, Andhra Pradesh\n\nYear founded\n1991\n\nCompany type\nPublic Company\n\nCompany size\n10,001+ employees\nSpecialties\nEngineering Services, Design Led Manufacturing, Networks and Operations, Data Analytics, and Geospatial"
             crunchbase: https://www.crunchbase.com/organization/cyient
             twitter: https://twitter.com/Cyient
             extra:
@@ -228,9 +126,6 @@ landscape:
             homepage_url: https://e.foundation/
             logo: e_foundation.svg
             description: e Foundation is a company that provides deGoogled smartphone operating systems and online services. Their flagship product, /e/OS, offers a privacy-enabled smartphone operating system that prioritizes user data privacy and security. Founded by Gaël Duv...
-            organization:
-              name: E Foundation
-              linkedin: https://www.linkedin.com/company/eelo.io
             extra:
               linkedin_url: https://www.linkedin.com/company/eelo.io
           - item:
@@ -238,60 +133,21 @@ landscape:
             homepage_url: https://fresnocountyca.gov/
             logo: fresno_county_department_of_public_works_planning.svg
             description: Fresno County is a top agricultural producer in California, providing county services and community workshops. Sally Gomez appointed as Interim County Librarian.
-            organization:
-              name: Fresno County Department of Public Works & Planning
           - item:
             name: Fused
             homepage_url: https://fused.io/
             logo: fused.svg
             description: Fused enables real-time serverless operations with Python UDFs, turning code into live HTTP endpoints for scalable data processing.
-            organization:
-              name: Fused
           - item:
             name: GEM Foundation
             homepage_url: https://globalquakemodel.org/
             logo: gem_foundation.svg
             description: GEM Foundation focuses on developing transparent tools and resources for earthquake hazard and risk assessment to enhance global resilience and awareness regarding seismic risks.
-            organization:
-              name: GEM Foundation
           - item:
             name: GlobalLogic Inc.
             homepage_url: https://globallogic.com/
             logo: globallogic_inc.svg
-            description: |-
-              1420 Spring Hill Road, Suite 155
-
-              McLean, Virginia 22102
-
-              USA
-
-              Phone : +1-703-847-5900
-
-              Fax: +1-703-847-5901
-
-              U.S. Headquarters & Silicon Valley Innovation Center
-
-              1740 Technology Drive, Suite 530
-
-              San Jose, California 95110
-
-              USA
-
-              Phone: +1-408-273-8900
-
-              Fax: +1-408-273-8799
-
-
-
-              Wikpedia: 
-
-              GlobalLogic was initially founded as 'Induslogic' in 2000, with headquarters in Vienna, Virginia, a delivery center in Noida, India, and funding from New Atlantic Ventures. In 2002 they appointed Mr. Peter Harrison as CEO. Mr. Harrison was instrumental in setting the company on a new path to become a provider of Outsourced Product Engineering services. In 2004 Vasudev Bhandarkar joined Globallogic as its first Independent Board Member.
-
-              GlobalLogic received Series B Venture round funding of $12.5M from Westbridge Capital and New Enterprise Associates in 2006[5] and acquired Lambent Technologies, a offshore software R&D services firm based in Nagpur, India led by Mr. Shashikant Chaudhary who is currently Managing Director of Globallogic's India operations. Lambent Technologies eventually became Globallogic's Center of Excellence for Mobile Products. Induslogic became GlobalLogic after its merger with Bonus Technology, an offshore software R&D services firm based in New Jersey with operations out of Kyiv, Ukraine and specializing in mobile and telecommunication technologies.[3] In 2007, GlobalLogic opened delivery centers in Beijing.[6] In 2007, Globallogic appointed Mr. Shashank Samant as President of the company.
-
-              In 2008, GlobalLogic opened in London, England and named Mike Daniels as Chairman of the Board.[7] The company received $29.5M in Series C venture round funding from Sequoia Capital, New Atlantic Ventures and New Enterprise Associates.[8] In 2009, GlobalLogic partnered with LumenData, a product development and services firm focused on enterprise data management, to open a delivery center in Bangalore.[9] The company also acquired two offshore software R&D services firms: InterObject and Cubika. InterObject is based in Ramat Gan, Israel and specializes in embedded software, mobile and streaming media products.[10] In 2010, GlobalLogic received funding from Goldman Sachs.[4]
-
-              In 2011, GlobalLogic opened an office in Santiago, Chile to expand its operations in South America.[11] The company acquired Rofous Software, a content engineering firm headquartered in Hyderabad, India.[12] In 2012 the company appointed Mr. Shashank Samant as it's CEO. The company also acquired Method Incorporated, a brand experience agency with offices in San Francisco, New York City and London.[13]
+            description: "1420 Spring Hill Road, Suite 155\n\nMcLean, Virginia 22102\n\nUSA\n\nPhone : +1-703-847-5900\n\nFax: +1-703-847-5901\n\nU.S. Headquarters & Silicon Valley Innovation Center\n\n1740 Technology Drive, Suite 530\n\nSan Jose, California 95110\n\nUSA\n\nPhone: +1-408-273-8900\n\nFax: +1-408-273-8799\n\n\n\nWikpedia: \n\nGlobalLogic was initially founded as 'Induslogic' in 2000, with headquarters in Vienna, Virginia, a delivery center in Noida, India, and funding from New Atlantic Ventures. In 2002 they appointed Mr. Peter Harrison as CEO. Mr. Harrison was instrumental in setting the company on a new path to become a provider of Outsourced Product Engineering services. In 2004 Vasudev Bhandarkar joined Globallogic as its first Independent Board Member.\n\nGlobalLogic received Series B Venture round funding of $12.5M from Westbridge Capital and New Enterprise Associates in 2006[5] and acquired Lambent Technologies, a offshore software R&D services firm based in Nagpur, India led by Mr. Shashikant Chaudhary who is currently Managing Director of Globallogic's India operations. Lambent Technologies eventually became Globallogic's Center of Excellence for Mobile Products. Induslogic became GlobalLogic after its merger with Bonus Technology, an offshore software R&D services firm based in New Jersey with operations out of Kyiv, Ukraine and specializing in mobile and telecommunication technologies.[3] In 2007, GlobalLogic opened delivery centers in Beijing.[6] In 2007, Globallogic appointed Mr. Shashank Samant as President of the company.\n\nIn 2008, GlobalLogic opened in London, England and named Mike Daniels as Chairman of the Board.[7] The company received $29.5M in Series C venture round funding from Sequoia Capital, New Atlantic Ventures and New Enterprise Associates.[8] In 2009, GlobalLogic partnered with LumenData, a product development and services firm focused on enterprise data management, to open a delivery center in Bangalore.[9] The company also acquired two offshore software R&D services firms: InterObject and Cubika. InterObject is based in Ramat Gan, Israel and specializes in embedded software, mobile and streaming media products.[10] In 2010, GlobalLogic received funding from Goldman Sachs.[4]\n\nIn 2011, GlobalLogic opened an office in Santiago, Chile to expand its operations in South America.[11] The company acquired Rofous Software, a content engineering firm headquartered in Hyderabad, India.[12] In 2012 the company appointed Mr. Shashank Samant as it's CEO. The company also acquired Method Incorporated, a brand experience agency with offices in San Francisco, New York City and London.[13]"
             crunchbase: https://www.crunchbase.com/organization/globallogic
             twitter: https://twitter.com/GlobalLogic
             extra:
@@ -309,127 +165,14 @@ landscape:
             name: Humanitarian OpenstreetMap Team
             homepage_url: https://hotosm.org/
             logo: humanitarian_openstreetmap_team.svg
-            description: |-
-              Humanitarian OpenStreetMap Team (HOT) is a charitable organization promoting humanitarian mapping globally through volunteer support, crisis response coordination, and open source software development.
-
-              --- Merged Data:
-
-              Humanitarian OpenStreetMap Team (HOT) is a charitable organization promoting humanitarian mapping globally through volunteer support, crisis response coordination, and open source software development.
-            organization:
-              name: Humanitarian OpenstreetMap Team
-              linkedin: https://www.linkedin.com/company/humanitarian-openstreetmap-team
+            description: "Humanitarian OpenStreetMap Team (HOT) is a charitable organization promoting humanitarian mapping globally through volunteer support, crisis response coordination, and open source software development.\n\n--- Merged Data:\n\nHumanitarian OpenStreetMap Team (HOT) is a charitable organization promoting humanitarian mapping globally through volunteer support, crisis response coordination, and open source software development."
             extra:
               linkedin_url: https://www.linkedin.com/company/humanitarian-openstreetmap-team
           - item:
             name: Hyundai Motor Group
             homepage_url: https://hyundai.com/
             logo: hyundai_motor_group.svg
-            description: |-
-              Hyundai Motor Company is headquartered in Gyeonggi-do Korea.
-
-
-
-              Hyundai America Technical Center, Inc. (HATCI), is the design, technology and engineering arm for all North American models of the Korean-based Hyundai-KIA Motors Group.
-
-
-
-              Hyundai America Technical Center, Inc.
-
-              6800 Geddes Road
-
-              Superior Township, MI 48198
-
-              Phone: (734) 337-2500
-
-              Fax: (734) 337-3168
-
-
-
-              Hyundai Motor America
-
-              P.O. Box 20850
-
-              Fountain Valley, CA 92728-0850
-
-              Phone: (800) 633-5151
-
-
-
-              hyundaiusa.com 
-
-
-
-
-
-              Hyundai Manufacturing
-
-              Hyundai Motor Manufacturing Alabama, LLC
-
-              700 Hyundai Blvd.
-
-              Montgomery, Alabama 36105
-
-              Phone: (334) 387-8000
-
-
-
-              hmmausa.com 
-
-
-
-
-
-              Kia Motors America
-
-              111 Peters Canyon Road
-
-              Irvine, CA 92603
-
-              Phone: (949) 468-4800
-
-              kia.com 
-
-
-
-              Linked In: 
-
-              About Hyundai Kia America Technical Center, Inc. (HATCI)
-
-
-
-              Hyundai America Technical Center, Inc. ("HATCI"), is the design, technology and engineering arm for all North American models of the Korean-based Hyundai-KIA Automotive Group. 
-
-
-
-              Hyundai Kia America Technical Center, Inc (HATCI) hires talented engineers, designers, technicians, and modelers. To see all of our openings visit www.hatci.com.
-
-
-
-              Headquarters
-
-              6800 Geddes Superior Township, MI 48198 United States
-
-
-
-              Website
-
-              http://www.hatci.com
-
-              Industry
-
-              Automotive
-
-
-
-              Type
-
-              Privately Held
-
-
-
-              Company Size
-
-              201-500 employees
+            description: "Hyundai Motor Company is headquartered in Gyeonggi-do Korea.\n\n\n\nHyundai America Technical Center, Inc. (HATCI), is the design, technology and engineering arm for all North American models of the Korean-based Hyundai-KIA Motors Group.\n\n\n\nHyundai America Technical Center, Inc.\n\n6800 Geddes Road\n\nSuperior Township, MI 48198\n\nPhone: (734) 337-2500\n\nFax: (734) 337-3168\n\n\n\nHyundai Motor America\n\nP.O. Box 20850\n\nFountain Valley, CA 92728-0850\n\nPhone: (800) 633-5151\n\n\n\nhyundaiusa.com \n\n\n\n\n\nHyundai Manufacturing\n\nHyundai Motor Manufacturing Alabama, LLC\n\n700 Hyundai Blvd.\n\nMontgomery, Alabama 36105\n\nPhone: (334) 387-8000\n\n\n\nhmmausa.com \n\n\n\n\n\nKia Motors America\n\n111 Peters Canyon Road\n\nIrvine, CA 92603\n\nPhone: (949) 468-4800\n\nkia.com \n\n\n\nLinked In: \n\nAbout Hyundai Kia America Technical Center, Inc. (HATCI)\n\n\n\nHyundai America Technical Center, Inc. (\"HATCI\"), is the design, technology and engineering arm for all North American models of the Korean-based Hyundai-KIA Automotive Group. \n\n\n\nHyundai Kia America Technical Center, Inc (HATCI) hires talented engineers, designers, technicians, and modelers. To see all of our openings visit www.hatci.com.\n\n\n\nHeadquarters\n\n6800 Geddes Superior Township, MI 48198 United States\n\n\n\nWebsite\n\nhttp://www.hatci.com\n\nIndustry\n\nAutomotive\n\n\n\nType\n\nPrivately Held\n\n\n\nCompany Size\n\n201-500 employees"
             crunchbase: https://www.crunchbase.com/organization/hyundai-motor-america
             twitter: https://twitter.com/Hyundai
             extra:
@@ -440,9 +183,6 @@ landscape:
             logo: inframappa.svg
             description: A single source of truth for all your infrastructure assets
             twitter: https://twitter.com/InfraMappa
-            organization:
-              name: Inframappa
-              linkedin: https://www.linkedin.com/company/inframappa
             extra:
               linkedin_url: https://www.linkedin.com/company/inframappa
           - item:
@@ -450,19 +190,13 @@ landscape:
             homepage_url: https://intellias.com/
             logo: intellias_global_limited.svg
             description: Intellias is a global technology partner that empowers leading brands worldwide with digital innovation and expertise in IT services, consulting, and product development.
-            organization:
-              name: Intellias Global Limited
-              linkedin: https://www.linkedin.com/company/intellias
             extra:
               linkedin_url: https://www.linkedin.com/company/intellias
           - item:
             name: krick.com GmbH + Co. KG
             homepage_url: https://krick.com/
             logo: krick_com_gmbh_co.svg
-            description: Der Robert Krick Verlag verlegt seit über 65 Jahren Verzeichnismedien wie Das Telefonbuch und Das Örtliche, und bietet lokale Informationsdienste für Print, Online und Mobil. Die iWelt AG bietet maßgeschneiderte Serviceleistungen in den Bereichen Provi...
-            organization:
-              name: krick.com GmbH + Co. KG
-              linkedin: https://www.linkedin.com/company/krickcom
+            description: "We bring customers to our clients.\nTo do this, we connect people and businesses—across all channels!\nThe Krick family of companies combines marketing, sales, and IT expertise. We develop high-performance websites, provide secure and flexible IT solutions, and support you on your path to greater visibility with over 150 online marketing experts.\nWe have continuously evolved from a traditional publishing house, recognized the opportunities of digitalization early on, and today combine technical know-how with measurable marketing success."
             extra:
               linkedin_url: https://www.linkedin.com/company/krickcom
           - item:
@@ -470,9 +204,6 @@ landscape:
             homepage_url: https://mobilitydata.org/
             logo: mobilitydata.svg
             description: MobilityData is a non-profit organization that brings together and supports mobility stakeholders to standardize and expand data formats for public transport and shared mobility, ensuring reliable and intuitive travel directions for users.
-            organization:
-              name: MobilityData
-              linkedin: https://www.linkedin.com/company/mobilitydata
             extra:
               linkedin_url: https://www.linkedin.com/company/mobilitydata
           - item:
@@ -487,10 +218,7 @@ landscape:
             name: Neusoft Corporation
             homepage_url: https://neusoft.com/
             logo: neusoft_corporation.svg
-            description: |-
-              Neusoft provides innovative information technology ��_��_��_ enabled solutions and services to meet the demands arising from social transformation, to shape new life styles for individuals and to create values for the society. Focusing on software technology, Neusoft provides industrial solutions, smart connected products, platform products and cloud and data services.
-
-              Founded in 1991, Neusoft is the first listed software company in China and the first CMM5 and CMMI(V1.2) 5 certified Chinese software company. Today, Neusoft has nearly 20,000 employees worldwide, and it has established 8 regional headquarters, 10 software R&D bases, 16 software development and technical support centers, and a marketing and service network covering more than 60 cities in China. It has also set up subsidiaries outside China in the United States, Japan, Europe, the Middle East, and South America.
+            description: "Neusoft provides innovative information technology ��_��_��_ enabled solutions and services to meet the demands arising from social transformation, to shape new life styles for individuals and to create values for the society. Focusing on software technology, Neusoft provides industrial solutions, smart connected products, platform products and cloud and data services.\n\nFounded in 1991, Neusoft is the first listed software company in China and the first CMM5 and CMMI(V1.2) 5 certified Chinese software company. Today, Neusoft has nearly 20,000 employees worldwide, and it has established 8 regional headquarters, 10 software R&D bases, 16 software development and technical support centers, and a marketing and service network covering more than 60 cities in China. It has also set up subsidiaries outside China in the United States, Japan, Europe, the Middle East, and South America."
             crunchbase: https://www.crunchbase.com/organization/neusoft
             twitter: https://twitter.com/NeusoftAuto
             extra:
@@ -508,14 +236,7 @@ landscape:
             name: OpenTravel Alliance
             homepage_url: https://opentravel.org/
             logo: opentravel_alliance.svg
-            description: |-
-              The OpenTravel Alliance is passionate about solving the problems inherent with connecting multiple systems within the complex travel distribution arena.
-
-              OpenTravel’s mission is to engineer specifications to ensure traveler and supplier information flow smoothly throughout travel, tourism and hospitality. OpenTravel creates, expands and drives adoption of open specifications, including but not limited to the use of XML, for the electronic exchange of business information among all sectors of the travel industry.
-
-              OpenTravel is comprised of companies representing airlines, car rental firms, hotels, cruise lines, railways, leisure suppliers, service providers, tour operators, travel agencies, solutions providers, technology companies and distributors. Tens of thousands of OpenTravel message structures are in use, carrying tens of millions of messages between trading partners every day.
-
-              OpenTravel is a not-for-profit trade association, founded in 1999 by travel companies, with a primary focus on the creation of electronic message structures to facilitate communication between the disparate systems in the global travel industry. Our members actually do the work of identifying what messages are needed, prioritizing the work and creating the messages
+            description: "The OpenTravel Alliance is passionate about solving the problems inherent with connecting multiple systems within the complex travel distribution arena.\n\nOpenTravel’s mission is to engineer specifications to ensure traveler and supplier information flow smoothly throughout travel, tourism and hospitality. OpenTravel creates, expands and drives adoption of open specifications, including but not limited to the use of XML, for the electronic exchange of business information among all sectors of the travel industry.\n\nOpenTravel is comprised of companies representing airlines, car rental firms, hotels, cruise lines, railways, leisure suppliers, service providers, tour operators, travel agencies, solutions providers, technology companies and distributors. Tens of thousands of OpenTravel message structures are in use, carrying tens of millions of messages between trading partners every day.\n\nOpenTravel is a not-for-profit trade association, founded in 1999 by travel companies, with a primary focus on the creation of electronic message structures to facilitate communication between the disparate systems in the global travel industry. Our members actually do the work of identifying what messages are needed, prioritizing the work and creating the messages"
             crunchbase: https://www.crunchbase.com/organization/open-travel
             twitter: https://twitter.com/OpenTravel
             extra:
@@ -534,14 +255,10 @@ landscape:
             homepage_url: https://regrid.com/
             logo: regrid.svg
             description: Regrid provides comprehensive parcel data and geographic information across the U.S. and Canada, enabling users to make informed decisions through access to government-sourced land data and a complete parcel mapping application.
-            organization:
-              name: Regrid
           - item:
             name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
             homepage_url: https://extremegeo.net/
             logo: resource_advancement_for_inquisitive_kids_international_rafiki.svg
-            organization:
-              name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
           - item:
             name: SafeGraph
             homepage_url: https://safegraph.com/
@@ -565,16 +282,11 @@ landscape:
             homepage_url: https://staer.ai/
             logo: staer.svg
             description: Staer specializes in developing autonomous spatial intelligence solutions for mobile robot fleets, enabling them to create and continuously update semantic 3D maps, coordinate across various vendors, and enhance their learning capabilities over time.
-            organization:
-              name: Staer
           - item:
             name: Tripadvisor LLC
             homepage_url: https://tripadvisor.com/
             logo: tripadvisor_llc.svg
             description: Tripadvisor is the world's largest travel guidance platform, offering over a billion reviews and recommendations for hotels, attractions, restaurants, and more. Travelers rely on Tripadvisor to plan their trips, find savings on accommodations, book exp...
-            organization:
-              name: Tripadvisor LLC
-              linkedin: https://www.linkedin.com/company/tripadvisor
             extra:
               linkedin_url: https://www.linkedin.com/company/tripadvisor
           - item:
@@ -596,18 +308,18 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ucsc
           - item:
+            name: voygr
+            homepage_url: https://voygr.tech/
+            logo: voygr.svg
+            description: High-fidelity location data layer for analytics, agents & apps. From address & contact details to hours, menus, prices. Maps tag places — VOYGR understands.
+          - item:
             name: Wherobots, Inc
             homepage_url: https://wherobots.com/
             logo: wherobots_inc.svg
             description: Wherobots specializes in providing cloud-native spatial ETL, analytics, and GeoAI solutions, enabling real-time data engineering and large-scale geospatial data processing to deliver insights and answers at a planetary scale.
-            organization:
-              name: Wherobots, Inc
-              linkedin: https://www.linkedin.com/company/wherobots
             extra:
               linkedin_url: https://www.linkedin.com/company/wherobots
           - item:
             name: Zephr.xyz
             homepage_url: https://zephr.xyz/
             logo: zephr.svg
-            organization:
-              name: Zephr.xyz
