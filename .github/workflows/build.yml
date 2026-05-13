@@ -20,7 +20,7 @@ jobs:
       pull-requests: write # Required if the landscape tooling creates or updates pull requests for those generated changes.
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
+        uses: step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450 # v2.19.1
         with:
           egress-policy: audit
       - uses: jmertic/lfx-landscape-tools@690d3a52ceb2092e17ab2b7f51040fddcfa87697 # 20260427
