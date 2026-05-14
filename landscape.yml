@@ -40,8 +40,6 @@ landscape:
             homepage_url: https://brightquery.com/
             logo: brightquery.svg
             description: BrightQuery provides trusted data solutions for over 200 million companies worldwide, offering financials, headcount, and firmographics for diverse industry applications.
-            organization:
-              name: BrightQuery
           - item:
             name: Environmental Systems Research Institute, Inc. (ESRI)
             homepage_url: https://esri.com/
@@ -76,9 +74,6 @@ landscape:
             homepage_url: https://addressforall.org/
             logo: addressforall_institute.svg
             description: The AddressForAll Institute is a non profit NGO that maintains an Open Address Data Base, having social impact through technology.
-            organization:
-              name: AddressForAll Institute
-              linkedin: https://www.linkedin.com/company/addressforall-institute
             extra:
               linkedin_url: https://www.linkedin.com/company/addressforall-institute
           - item:
@@ -156,16 +151,11 @@ landscape:
               CARIAD builds a uniform software platform for all brands of the Volkswagen Group, which includes a unified and scalable architecture, an operating system, and an automotive cloud. 
               We transform cars into software-defined vehicles that seamlessly integrate the automotive experience into our digital life, turning the Volkswagen Group into a software-driven mobility provider. CARIAD’s headquarters is located in Germany and co-operates with international Volkswagen Group teams in the US and China. 
               Visit: https://cariad.technology
-            organization:
-              name: CARIAD SE
           - item:
             name: con terra
             homepage_url: https://conterra.de/
             logo: con_terra.svg
             description: con terra specializes in providing advanced Geographic Information System (GIS) solutions that integrate spatial and non-spatial data, enabling clients to visualize and analyze complex datasets effectively.
-            organization:
-              name: con terra
-              linkedin: https://www.linkedin.com/company/con-terra-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/con-terra-gmbh
           - item:
@@ -173,9 +163,6 @@ landscape:
             homepage_url: https://corelogic.com/
             logo: corelogic_solutions_llc.svg
             description: CoreLogic® provides integrated property information, analytics, and data-enabled services that empower various stakeholders in the real estate ecosystem, including agents, lenders, and insurers, by leveraging a vast database to deliver predictive decis...
-            organization:
-              name: CoreLogic Solutions, LLC.
-              linkedin: https://www.linkedin.com/company/corelogic
             extra:
               linkedin_url: https://www.linkedin.com/company/corelogic
           - item:
@@ -228,9 +215,6 @@ landscape:
             homepage_url: https://e.foundation/
             logo: e_foundation.svg
             description: e Foundation is a company that provides deGoogled smartphone operating systems and online services. Their flagship product, /e/OS, offers a privacy-enabled smartphone operating system that prioritizes user data privacy and security. Founded by Gaël Duv...
-            organization:
-              name: E Foundation
-              linkedin: https://www.linkedin.com/company/eelo.io
             extra:
               linkedin_url: https://www.linkedin.com/company/eelo.io
           - item:
@@ -238,22 +222,16 @@ landscape:
             homepage_url: https://fresnocountyca.gov/
             logo: fresno_county_department_of_public_works_planning.svg
             description: Fresno County is a top agricultural producer in California, providing county services and community workshops. Sally Gomez appointed as Interim County Librarian.
-            organization:
-              name: Fresno County Department of Public Works & Planning
           - item:
             name: Fused
             homepage_url: https://fused.io/
             logo: fused.svg
             description: Fused enables real-time serverless operations with Python UDFs, turning code into live HTTP endpoints for scalable data processing.
-            organization:
-              name: Fused
           - item:
             name: GEM Foundation
             homepage_url: https://globalquakemodel.org/
             logo: gem_foundation.svg
             description: GEM Foundation focuses on developing transparent tools and resources for earthquake hazard and risk assessment to enhance global resilience and awareness regarding seismic risks.
-            organization:
-              name: GEM Foundation
           - item:
             name: GlobalLogic Inc.
             homepage_url: https://globallogic.com/
@@ -315,9 +293,6 @@ landscape:
               --- Merged Data:
 
               Humanitarian OpenStreetMap Team (HOT) is a charitable organization promoting humanitarian mapping globally through volunteer support, crisis response coordination, and open source software development.
-            organization:
-              name: Humanitarian OpenstreetMap Team
-              linkedin: https://www.linkedin.com/company/humanitarian-openstreetmap-team
             extra:
               linkedin_url: https://www.linkedin.com/company/humanitarian-openstreetmap-team
           - item:
@@ -440,9 +415,6 @@ landscape:
             logo: inframappa.svg
             description: A single source of truth for all your infrastructure assets
             twitter: https://twitter.com/InfraMappa
-            organization:
-              name: Inframappa
-              linkedin: https://www.linkedin.com/company/inframappa
             extra:
               linkedin_url: https://www.linkedin.com/company/inframappa
           - item:
@@ -450,19 +422,17 @@ landscape:
             homepage_url: https://intellias.com/
             logo: intellias_global_limited.svg
             description: Intellias is a global technology partner that empowers leading brands worldwide with digital innovation and expertise in IT services, consulting, and product development.
-            organization:
-              name: Intellias Global Limited
-              linkedin: https://www.linkedin.com/company/intellias
             extra:
               linkedin_url: https://www.linkedin.com/company/intellias
           - item:
             name: krick.com GmbH + Co. KG
             homepage_url: https://krick.com/
             logo: krick_com_gmbh_co.svg
-            description: Der Robert Krick Verlag verlegt seit über 65 Jahren Verzeichnismedien wie Das Telefonbuch und Das Örtliche, und bietet lokale Informationsdienste für Print, Online und Mobil. Die iWelt AG bietet maßgeschneiderte Serviceleistungen in den Bereichen Provi...
-            organization:
-              name: krick.com GmbH + Co. KG
-              linkedin: https://www.linkedin.com/company/krickcom
+            description: |-
+              We bring customers to our clients.
+              To do this, we connect people and businesses—across all channels!
+              The Krick family of companies combines marketing, sales, and IT expertise. We develop high-performance websites, provide secure and flexible IT solutions, and support you on your path to greater visibility with over 150 online marketing experts.
+              We have continuously evolved from a traditional publishing house, recognized the opportunities of digitalization early on, and today combine technical know-how with measurable marketing success.
             extra:
               linkedin_url: https://www.linkedin.com/company/krickcom
           - item:
@@ -470,9 +440,6 @@ landscape:
             homepage_url: https://mobilitydata.org/
             logo: mobilitydata.svg
             description: MobilityData is a non-profit organization that brings together and supports mobility stakeholders to standardize and expand data formats for public transport and shared mobility, ensuring reliable and intuitive travel directions for users.
-            organization:
-              name: MobilityData
-              linkedin: https://www.linkedin.com/company/mobilitydata
             extra:
               linkedin_url: https://www.linkedin.com/company/mobilitydata
           - item:
@@ -505,6 +472,11 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/niantic
           - item:
+            name: Nology
+            homepage_url: https://nology.com.br/
+            logo: nology.svg
+            description: Nology is your partner in transforming information into a competitive advantage for your business. We help entrepreneurs and franchises utilize data to guide expansion, marketing, sales, and market research strategies. Increase your success rates and a...
+          - item:
             name: OpenTravel Alliance
             homepage_url: https://opentravel.org/
             logo: opentravel_alliance.svg
@@ -534,14 +506,10 @@ landscape:
             homepage_url: https://regrid.com/
             logo: regrid.svg
             description: Regrid provides comprehensive parcel data and geographic information across the U.S. and Canada, enabling users to make informed decisions through access to government-sourced land data and a complete parcel mapping application.
-            organization:
-              name: Regrid
           - item:
             name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
             homepage_url: https://extremegeo.net/
             logo: resource_advancement_for_inquisitive_kids_international_rafiki.svg
-            organization:
-              name: RESOURCE ADVANCEMENT FOR INQUISITIVE KIDS INTERNATIONAL RAFIKI
           - item:
             name: SafeGraph
             homepage_url: https://safegraph.com/
@@ -551,6 +519,11 @@ landscape:
             twitter: https://twitter.com/SafeGraph
             extra:
               linkedin_url: https://www.linkedin.com/company/safegraph
+          - item:
+            name: Smarty
+            homepage_url: https://smarty.com/
+            logo: smarty.svg
+            description: Smarty is a top provider of address verification solutions for USPS & international addresses, offering easy-to-use APIs and location data intelligence services to verify, enrich, and standardize addresses for leading companies like Microsoft and Netflix.
           - item:
             name: Sparkgeo
             homepage_url: https://sparkgeo.com/
@@ -565,16 +538,11 @@ landscape:
             homepage_url: https://staer.ai/
             logo: staer.svg
             description: Staer specializes in developing autonomous spatial intelligence solutions for mobile robot fleets, enabling them to create and continuously update semantic 3D maps, coordinate across various vendors, and enhance their learning capabilities over time.
-            organization:
-              name: Staer
           - item:
             name: Tripadvisor LLC
             homepage_url: https://tripadvisor.com/
             logo: tripadvisor_llc.svg
             description: Tripadvisor is the world's largest travel guidance platform, offering over a billion reviews and recommendations for hotels, attractions, restaurants, and more. Travelers rely on Tripadvisor to plan their trips, find savings on accommodations, book exp...
-            organization:
-              name: Tripadvisor LLC
-              linkedin: https://www.linkedin.com/company/tripadvisor
             extra:
               linkedin_url: https://www.linkedin.com/company/tripadvisor
           - item:
@@ -596,18 +564,25 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ucsc
           - item:
+            name: Vantor
+            homepage_url: https://vantor.com/
+            logo: vantor.svg
+            description: Vantor.com is a company that specializes in web development and domain registration. They offer assistance in finding the perfect domain for your project and provide development opportunities for customers. If you already have a web development team, t...
+            extra:
+              linkedin_url: https://www.linkedin.com/company/maxar-technologies-ltd
+          - item:
+            name: voygr
+            homepage_url: https://voygr.tech/
+            logo: voygr.svg
+            description: High-fidelity location data layer for analytics, agents & apps. From address & contact details to hours, menus, prices. Maps tag places — VOYGR understands.
+          - item:
             name: Wherobots, Inc
             homepage_url: https://wherobots.com/
             logo: wherobots_inc.svg
             description: Wherobots specializes in providing cloud-native spatial ETL, analytics, and GeoAI solutions, enabling real-time data engineering and large-scale geospatial data processing to deliver insights and answers at a planetary scale.
-            organization:
-              name: Wherobots, Inc
-              linkedin: https://www.linkedin.com/company/wherobots
             extra:
               linkedin_url: https://www.linkedin.com/company/wherobots
           - item:
             name: Zephr.xyz
             homepage_url: https://zephr.xyz/
             logo: zephr.svg
-            organization:
-              name: Zephr.xyz
