@@ -523,7 +523,7 @@ landscape:
             name: Smarty
             homepage_url: https://smarty.com/
             logo: smarty.svg
-            description: Smarty is a top provider of address verification solutions for USPS & international addresses, offering easy-to-use APIs and location data intelligence services to verify, enrich, and standardize addresses for leading companies like Microsoft and Netflix.
+            description: Smarty is a top provider of address verification solutions for USPS & international addresses, offering easy-to-use APIs and location data intelligence services to verify, enrich, and standardize addresses for leading companies like Uber and Netflix.
           - item:
             name: Sparkgeo
             homepage_url: https://sparkgeo.com/
