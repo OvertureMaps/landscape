@@ -564,6 +564,11 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ucsc
           - item:
+            name: University Consortium for Geographic Information Science (UCGIS)
+            homepage_url: https://ucgis.org/
+            logo: university_consortium_for_geographic_information_science_ucgis.svg
+            description: UCGIS advances Geographic Information Science by fostering scholarly communities and networks that promote multidisciplinary research and education in the field of GIS.
+          - item:
             name: Vantor
             homepage_url: https://vantor.com/
             logo: vantor.svg
