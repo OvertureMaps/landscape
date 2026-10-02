@@ -223,6 +223,11 @@ landscape:
             logo: fresno_county_department_of_public_works_planning.svg
             description: Fresno County is a top agricultural producer in California, providing county services and community workshops. Sally Gomez appointed as Interim County Librarian.
           - item:
+            name: Fujairah GIS Center
+            homepage_url: https://gis.fujairah.ae/
+            logo: fujairah_gis_center.svg
+            description: Fujairah E Government offers a wide range of electronic services designed to meet your needs in a simple, intelligent, and convenient manner.
+          - item:
             name: Fused
             homepage_url: https://fused.io/
             logo: fused.svg
@@ -425,6 +430,10 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/intellias
           - item:
+            name: iRAP
+            homepage_url: https://irap.org/
+            logo: irap.svg
+          - item:
             name: krick.com GmbH + Co. KG
             homepage_url: https://krick.com/
             logo: krick_com_gmbh_co.svg
@@ -435,6 +444,11 @@ landscape:
               We have continuously evolved from a traditional publishing house, recognized the opportunities of digitalization early on, and today combine technical know-how with measurable marketing success.
             extra:
               linkedin_url: https://www.linkedin.com/company/krickcom
+          - item:
+            name: Masego Inc.
+            homepage_url: https://masegoinc.com/
+            logo: masego_inc.svg
+            description: Masego Inc. is a leading SDVOSB offering expert Activity Based Intelligence and GEOINT services to the defense and security sectors, specializing in GEOINT, human geography analysis, data science, and professional training.
           - item:
             name: MobilityData
             homepage_url: https://mobilitydata.org/
@@ -539,6 +553,14 @@ landscape:
             logo: staer.svg
             description: Staer specializes in developing autonomous spatial intelligence solutions for mobile robot fleets, enabling them to create and continuously update semantic 3D maps, coordinate across various vendors, and enhance their learning capabilities over time.
           - item:
+            name: TikTok Inc.
+            homepage_url: https://tiktok.com/
+            logo: tiktok_inc.svg
+            description: TikTok, owned by Chinese company ByteDance, is a short-form video hosting service where users can upload videos ranging from 15 seconds to 10 minutes in length. The platform is known for its diverse content, including lip-syncing, dancing, comedy sketches, and educational videos. In China, TikTok is known as Douyin.
+            crunchbase: https://www.crunchbase.com/organization/tiktok
+            extra:
+              linkedin_url: https://www.linkedin.com/company/tiktok
+          - item:
             name: Tripadvisor LLC
             homepage_url: https://tripadvisor.com/
             logo: tripadvisor_llc.svg
@@ -568,6 +590,15 @@ landscape:
             homepage_url: https://ucgis.org/
             logo: university_consortium_for_geographic_information_science_ucgis.svg
             description: UCGIS advances Geographic Information Science by fostering scholarly communities and networks that promote multidisciplinary research and education in the field of GIS.
+          - item:
+            name: University of New South Wales
+            homepage_url: https://unsw.edu.au/
+            logo: university_of_new_south_wales.svg
+            description: The University of New South Wales is an Australian public research university located in the Sydney suburb of Kensington.
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
+            twitter: https://twitter.com/UNSW
+            extra:
+              linkedin_url: https://www.linkedin.com/company/university-of-new-south-wales
           - item:
             name: Vantor
             homepage_url: https://vantor.com/
