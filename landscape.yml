@@ -77,6 +77,15 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/addressforall-institute
           - item:
+            name: Aoyama Gakuin University
+            homepage_url: https://aoyama.ac.jp/
+            logo: aoyama_gakuin_university.svg
+            description: 青山学院大学公式アカウント Instagram ☞ https://t.co/pKpubxWson… Facebook ☞ https://t.co/77PMUAQ6xt 青学TV ☞ https://t.co/nvrjZVM3RJ
+            crunchbase: https://www.crunchbase.com/organization/aoyama-gakuin-university
+            twitter: https://twitter.com/AoyamaGakuinU
+            extra:
+              linkedin_url: https://www.linkedin.com/company/%e9%9d%92%e5%b1%b1%e5%ad%a6%e9%99%a2%e5%a4%a7%e5%ad%a6
+          - item:
             name: Camptocamp
             homepage_url: https://camptocamp.com/
             logo: camptocamp.svg
@@ -422,13 +431,6 @@ landscape:
             twitter: https://twitter.com/InfraMappa
             extra:
               linkedin_url: https://www.linkedin.com/company/inframappa
-          - item:
-            name: Intellias Global Limited
-            homepage_url: https://intellias.com/
-            logo: intellias_global_limited.svg
-            description: Intellias is a global technology partner that empowers leading brands worldwide with digital innovation and expertise in IT services, consulting, and product development.
-            extra:
-              linkedin_url: https://www.linkedin.com/company/intellias
           - item:
             name: iRAP
             homepage_url: https://irap.org/
