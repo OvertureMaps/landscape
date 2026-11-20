@@ -1,4 +1,4 @@
 # Default owners for everything in the repo
 * @jmertic @dwoolflf
 
-/.github @overturemaps/omf-public-reviewers
+/.github/ @overturemaps/omf-public-reviewers @OvertureMaps/overture-devops-reviewers
