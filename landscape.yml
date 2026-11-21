@@ -432,6 +432,13 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/inframappa
           - item:
+            name: Intellias Global Limited
+            homepage_url: https://intellias.com/
+            logo: intellias_global_limited.svg
+            description: Intellias is a global technology partner that empowers leading brands worldwide with digital innovation and expertise in IT services, consulting, and product development.
+            extra:
+              linkedin_url: https://www.linkedin.com/company/intellias
+          - item:
             name: iRAP
             homepage_url: https://irap.org/
             logo: irap.svg
