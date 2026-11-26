@@ -43,7 +43,7 @@ landscape:
           - item:
             name: Environmental Systems Research Institute, Inc. (ESRI)
             homepage_url: https://esri.com/
-            logo: environmental_systems_research_institute_inc.svg
+            logo: environmental_systems_research_institute_inc_esri.svg
             description: Esri develops geographic information system (GIS) solutions that function as an integral component in nearly every type of organization. The company's focus remains on producing excellent software and delivering exceptional service to users. Esri believes that better information makes for better decisions. Its reputation is built on contributing technical knowledge, special people, and valuable experience to the collection, analysis, and communication of geographic information. The software is used by more than 350,000 organizations worldwide including most U.S. federal agencies and national mapping agencies, 45 of the top 50 petroleum companies, all 50 U.S. state health departments, most forestry companies, more than 24,000 state and local governments, and many others in dozens of industries.
             crunchbase: https://www.crunchbase.com/organization/esri
             twitter: https://twitter.com/Esri
@@ -445,7 +445,7 @@ landscape:
           - item:
             name: krick.com GmbH + Co. KG
             homepage_url: https://krick.com/
-            logo: krick_com_gmbh_co.svg
+            logo: krick_com_gmbh_co_kg.svg
             description: |-
               We bring customers to our clients.
               To do this, we connect people and businesses—across all channels!
@@ -622,4 +622,4 @@ landscape:
           - item:
             name: Zephr.xyz
             homepage_url: https://zephr.xyz/
-            logo: zephr.svg
+            logo: zephr_xyz.svg
